@@ -1,0 +1,929 @@
+{
+  "version": "1",
+  "dataAsOf": "2026-06-11",
+  "updatedAt": "2026-06-11T20:00:00Z",
+  "exportedAt": "2026-06-11T22:54:31.265Z",
+  "districtCode": "WI-03",
+  "data": {
+    "DISTRICT": {
+      "id": "wi-03",
+      "districtNumber": "WI-03",
+      "districtName": "Wisconsin's 3rd Congressional District",
+      "state": "Wisconsin",
+      "counties": [
+        "La Crosse",
+        "Eau Claire",
+        "Vernon",
+        "Crawford",
+        "Grant",
+        "Pierce",
+        "Pepin",
+        "Buffalo",
+        "Jackson",
+        "Monroe",
+        "Trempealeau"
+      ],
+      "majorPlaces": [
+        "La Crosse",
+        "Eau Claire",
+        "Onalaska",
+        "Sparta",
+        "Prairie du Chien",
+        "Platteville"
+      ],
+      "cycleYear": 2026,
+      "population": 737000,
+      "registeredVoters": 390000,
+      "partyRegistration": [
+        {
+          "label": "Democratic",
+          "count": 145000,
+          "pct": 37.2
+        },
+        {
+          "label": "Republican",
+          "count": 152000,
+          "pct": 39
+        },
+        {
+          "label": "No Party / Nonpartisan",
+          "count": 93000,
+          "pct": 23.8
+        }
+      ],
+      "previousResult": {
+        "year": 2024,
+        "seat": "U.S. House — WI-03",
+        "winner": {
+          "name": "Derrick Van Orden (R)",
+          "pct": 51.4,
+          "votes": 188000
+        },
+        "runnerUp": {
+          "name": "Rebecca Cooke (D)",
+          "pct": 48.6,
+          "votes": 178000
+        },
+        "turnoutPct": 62
+      }
+    },
+    "SOURCES": {
+      "src-wi-wec-elections": {
+        "id": "src-wi-wec-elections",
+        "name": "Wisconsin Elections Commission — elections.wi.gov",
+        "short": "WI Elections Commission",
+        "url": "https://elections.wi.gov/",
+        "publisher": "Wisconsin Elections Commission",
+        "sourceType": "official-state",
+        "hierarchyLevel": 1,
+        "dateAccessed": "2026-06-11",
+        "lastVerified": "2026-06-11",
+        "confidence": "high"
+      },
+      "src-wi-myvote": {
+        "id": "src-wi-myvote",
+        "name": "MyVote Wisconsin — Voter Portal (myvote.wi.gov)",
+        "short": "MyVote Wisconsin",
+        "url": "https://myvote.wi.gov/",
+        "publisher": "Wisconsin Elections Commission",
+        "sourceType": "official-state",
+        "hierarchyLevel": 1,
+        "dateAccessed": "2026-06-11",
+        "lastVerified": "2026-06-11",
+        "confidence": "high"
+      },
+      "src-wi-statutes-elections": {
+        "id": "src-wi-statutes-elections",
+        "name": "Wisconsin Statutes Chapters 5–12 (Elections)",
+        "short": "WI Statutes Ch. 5–12",
+        "url": "https://docs.legis.wisconsin.gov/statutes/statutes/5",
+        "publisher": "Wisconsin Legislature",
+        "sourceType": "statutory",
+        "hierarchyLevel": 3,
+        "dateAccessed": "2026-06-11",
+        "lastVerified": "2026-06-11",
+        "confidence": "high"
+      },
+      "src-lacrosse-county-clerk": {
+        "id": "src-lacrosse-county-clerk",
+        "name": "La Crosse County Clerk — Elections",
+        "short": "La Crosse County Clerk",
+        "url": "https://www.lacrossecounty.org/countyclerk",
+        "publisher": "La Crosse County Clerk",
+        "sourceType": "official-county",
+        "hierarchyLevel": 2,
+        "dateAccessed": "2026-06-11",
+        "lastVerified": "2026-06-11",
+        "confidence": "high"
+      },
+      "src-eauclaire-county-clerk": {
+        "id": "src-eauclaire-county-clerk",
+        "name": "Eau Claire County Clerk — Elections",
+        "short": "Eau Claire County Clerk",
+        "url": "https://www.eauclairecounty.gov/our-government/departments-i-z/county-clerk",
+        "publisher": "Eau Claire County Clerk",
+        "sourceType": "official-county",
+        "hierarchyLevel": 2,
+        "dateAccessed": "2026-06-11",
+        "lastVerified": "2026-06-11",
+        "confidence": "high"
+      },
+      "src-vernon-county-clerk": {
+        "id": "src-vernon-county-clerk",
+        "name": "Vernon County Clerk — Elections",
+        "short": "Vernon County Clerk",
+        "url": "https://www.vernoncounty.org/county-clerk",
+        "publisher": "Vernon County Clerk",
+        "sourceType": "official-county",
+        "hierarchyLevel": 2,
+        "dateAccessed": "2026-06-11",
+        "lastVerified": "2026-06-11",
+        "confidence": "high"
+      },
+      "src-monroe-county-clerk": {
+        "id": "src-monroe-county-clerk",
+        "name": "Monroe County Clerk — Elections",
+        "short": "Monroe County Clerk",
+        "url": "https://www.co.monroe.wi.us/departments/county-clerk",
+        "publisher": "Monroe County Clerk",
+        "sourceType": "official-county",
+        "hierarchyLevel": 2,
+        "dateAccessed": "2026-06-11",
+        "lastVerified": "2026-06-11",
+        "confidence": "high"
+      },
+      "src-grant-county-clerk": {
+        "id": "src-grant-county-clerk",
+        "name": "Grant County Clerk — Elections",
+        "short": "Grant County Clerk",
+        "url": "https://www.co.grant.wi.gov/168/County-Clerk",
+        "publisher": "Grant County Clerk",
+        "sourceType": "official-county",
+        "hierarchyLevel": 2,
+        "dateAccessed": "2026-06-11",
+        "lastVerified": "2026-06-11",
+        "confidence": "high"
+      },
+      "src-ballotpedia-wi03": {
+        "id": "src-ballotpedia-wi03",
+        "name": "Ballotpedia — Wisconsin's 3rd Congressional District election, 2026",
+        "short": "Ballotpedia WI-03",
+        "url": "https://ballotpedia.org/Wisconsin%27s_3rd_Congressional_District_election,_2026",
+        "publisher": "Ballotpedia",
+        "sourceType": "secondary",
+        "hierarchyLevel": 4,
+        "dateAccessed": "2026-06-11",
+        "lastVerified": "2026-06-11",
+        "confidence": "high"
+      },
+      "src-wispolitics": {
+        "id": "src-wispolitics",
+        "name": "WisPolitics — Wisconsin political news",
+        "short": "WisPolitics",
+        "url": "https://www.wispolitics.com/",
+        "publisher": "WisPolitics",
+        "sourceType": "news",
+        "hierarchyLevel": 4,
+        "dateAccessed": "2026-06-11",
+        "lastVerified": "2026-06-11",
+        "confidence": "high"
+      },
+      "src-centersquare-wi": {
+        "id": "src-centersquare-wi",
+        "name": "The Center Square — Wisconsin",
+        "short": "Center Square WI",
+        "url": "https://www.thecentersquare.com/wisconsin/",
+        "publisher": "The Center Square",
+        "sourceType": "news",
+        "hierarchyLevel": 4,
+        "dateAccessed": "2026-06-11",
+        "lastVerified": "2026-06-11",
+        "confidence": "high"
+      },
+      "src-wkow": {
+        "id": "src-wkow",
+        "name": "WKOW — Madison ABC affiliate news",
+        "short": "WKOW",
+        "url": "https://www.wkow.com/",
+        "publisher": "WKOW-TV Madison",
+        "sourceType": "news",
+        "hierarchyLevel": 4,
+        "dateAccessed": "2026-06-11",
+        "lastVerified": "2026-06-11",
+        "confidence": "high"
+      },
+      "src-isthmus": {
+        "id": "src-isthmus",
+        "name": "Isthmus — Madison independent news",
+        "short": "Isthmus",
+        "url": "https://isthmus.com/",
+        "publisher": "Isthmus",
+        "sourceType": "news",
+        "hierarchyLevel": 4,
+        "dateAccessed": "2026-06-11",
+        "lastVerified": "2026-06-11",
+        "confidence": "high"
+      }
+    },
+    "ELECTION_EVENTS": [
+      {
+        "id": "evt-wi03-primary-reg-deadline-mail",
+        "milestone": "Voter registration deadline — primary (mail/online)",
+        "electionType": "primary",
+        "date": "2026-07-22",
+        "significance": "Last day to register by mail or online (myvote.wi.gov) for the August 11, 2026 Wisconsin partisan primary — 20 days before election day. Voters may also register in person at their municipal clerk's office through August 7, 2026 (last business day before primary). Election Day registration at the polling place is also available.",
+        "governingAuthority": "Wisconsin Elections Commission",
+        "sourceIds": [
+          "src-wi-wec-elections",
+          "src-wi-statutes-elections",
+          "src-wi-myvote"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-06-11",
+        "status": "estimated"
+      },
+      {
+        "id": "evt-wi03-primary-inperson-reg-deadline",
+        "milestone": "In-person registration deadline at clerk — primary",
+        "electionType": "primary",
+        "date": "2026-08-07",
+        "significance": "Last day to register in person at a municipal clerk's office before the August 11, 2026 primary. Voters may also register at the polls on Election Day (August 11) with proof of residence.",
+        "governingAuthority": "Wisconsin Elections Commission",
+        "sourceIds": [
+          "src-wi-wec-elections",
+          "src-wi-statutes-elections"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-06-11",
+        "status": "estimated"
+      },
+      {
+        "id": "evt-wi03-primary-absentee-request-deadline",
+        "milestone": "Absentee ballot request deadline — primary",
+        "electionType": "primary",
+        "date": "2026-08-06",
+        "significance": "Last day for voters to request an absentee (mail) ballot for the August 11 primary — must be received by the municipal clerk by 5 PM, five days before the election, per Wisconsin statute. In-person absentee voting at the clerk's office runs from the ballot availability date through August 9 (Sunday before primary).",
+        "governingAuthority": "Wisconsin Elections Commission",
+        "sourceIds": [
+          "src-wi-wec-elections",
+          "src-wi-statutes-elections",
+          "src-lacrosse-county-clerk"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-06-11",
+        "status": "estimated"
+      },
+      {
+        "id": "evt-wi03-primary-inperson-absentee-start",
+        "milestone": "In-person absentee (early) voting begins — primary",
+        "electionType": "primary",
+        "date": "2026-07-28",
+        "significance": "Wisconsin's in-person absentee (early) voting window typically opens two weeks before election day. Voters may cast their ballot in person at their municipal or county clerk's office from approximately July 28 through August 9, 2026 (the Sunday before the primary). Exact start date varies by municipality — confirm with your clerk.",
+        "governingAuthority": "La Crosse County Clerk / Eau Claire County Clerk / municipal clerks",
+        "sourceIds": [
+          "src-wi-wec-elections",
+          "src-wi-statutes-elections",
+          "src-lacrosse-county-clerk",
+          "src-eauclaire-county-clerk"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-06-11",
+        "status": "estimated"
+      },
+      {
+        "id": "evt-wi03-primary-day",
+        "milestone": "Primary election day — Wisconsin partisan primary",
+        "electionType": "primary",
+        "date": "2026-08-11",
+        "significance": "Wisconsin statewide partisan primary. WI-03 Democratic primary: Rebecca Cooke vs. Emily Berge (vs. possibly Mel M. Marin). Derrick Van Orden (R) runs unopposed in the Republican primary. Polls open 7 AM – 8 PM local time. WEC certified both Cooke and Berge for the ballot at its June 9, 2026 meeting.",
+        "governingAuthority": "Wisconsin Elections Commission",
+        "sourceIds": [
+          "src-wi-wec-elections",
+          "src-ballotpedia-wi03",
+          "src-wispolitics"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-06-11",
+        "status": "estimated"
+      },
+      {
+        "id": "evt-wi03-primary-absentee-receipt-deadline",
+        "milestone": "Absentee ballot receipt deadline — primary",
+        "electionType": "primary",
+        "date": "2026-08-11",
+        "significance": "Wisconsin is strict: absentee ballots must be received by the municipal clerk by 8:00 PM on Election Day (August 11). There is NO grace period — ballots received after 8 PM are not counted, regardless of postmark.",
+        "governingAuthority": "Wisconsin Elections Commission",
+        "sourceIds": [
+          "src-wi-wec-elections",
+          "src-wi-statutes-elections"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-06-11",
+        "status": "estimated"
+      },
+      {
+        "id": "evt-wi03-primary-canvass",
+        "milestone": "County canvass — primary",
+        "electionType": "primary",
+        "date": "2026-08-25",
+        "significance": "County clerks and boards of canvassers complete the official canvass of primary results within approximately 14 days of election day. WEC compiles statewide results after county certifications.",
+        "governingAuthority": "La Crosse / Eau Claire / Vernon / Monroe county clerks",
+        "sourceIds": [
+          "src-wi-wec-elections",
+          "src-wi-statutes-elections"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-06-11",
+        "status": "estimated"
+      },
+      {
+        "id": "evt-wi03-general-reg-deadline-mail",
+        "milestone": "Voter registration deadline — general (mail/online)",
+        "electionType": "general",
+        "date": "2026-10-14",
+        "significance": "Last day to register by mail or online (myvote.wi.gov) for the November 3, 2026 general election — 20 days before election day. Voters who miss this deadline may register in person at their clerk's office through November 1 or register at the polls on Election Day with proof of residence.",
+        "governingAuthority": "Wisconsin Elections Commission",
+        "sourceIds": [
+          "src-wi-wec-elections",
+          "src-wi-statutes-elections",
+          "src-wi-myvote"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-06-11",
+        "status": "estimated"
+      },
+      {
+        "id": "evt-wi03-general-inperson-reg-deadline",
+        "milestone": "In-person registration deadline at clerk — general",
+        "electionType": "general",
+        "date": "2026-11-01",
+        "significance": "Last day to register in person at a municipal clerk's office before the November 3, 2026 general election (last business day before election day).",
+        "governingAuthority": "Wisconsin Elections Commission",
+        "sourceIds": [
+          "src-wi-wec-elections",
+          "src-wi-statutes-elections"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-06-11",
+        "status": "estimated"
+      },
+      {
+        "id": "evt-wi03-general-absentee-mail-sent",
+        "milestone": "Absentee (VBM) ballots mailed to requesting voters — general",
+        "electionType": "general",
+        "date": "2026-10-06",
+        "significance": "Wisconsin municipalities mail absentee ballots to voters who have requested them. Unlike California, Wisconsin does NOT mail ballots to all voters automatically — voters must request an absentee ballot. Requests must be received by the clerk at least 5 days before election day (by October 29). Voters may apply online at myvote.wi.gov.",
+        "governingAuthority": "Wisconsin Elections Commission / municipal clerks",
+        "sourceIds": [
+          "src-wi-wec-elections",
+          "src-wi-statutes-elections",
+          "src-wi-myvote"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-06-11",
+        "status": "estimated"
+      },
+      {
+        "id": "evt-wi03-general-absentee-request-deadline",
+        "milestone": "Absentee ballot request deadline — general",
+        "electionType": "general",
+        "date": "2026-10-29",
+        "significance": "Last day to request an absentee (mail) ballot for the November 3, 2026 general election — must be received by the municipal clerk by 5 PM, five days before election day per Wisconsin statute (Wis. Stat. § 6.86). After this deadline, voters may still vote in-person absentee at the clerk's office through November 1.",
+        "governingAuthority": "Wisconsin Elections Commission",
+        "sourceIds": [
+          "src-wi-wec-elections",
+          "src-wi-statutes-elections"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-06-11",
+        "status": "estimated"
+      },
+      {
+        "id": "evt-wi03-general-inperson-absentee-start",
+        "milestone": "In-person absentee (early) voting begins — general",
+        "electionType": "general",
+        "date": "2026-10-20",
+        "significance": "Wisconsin's in-person absentee voting window typically opens two weeks before election day. Voters may cast their absentee ballot in person at their municipal or county clerk's office from approximately October 20 through November 1, 2026 (the Sunday before election day). Exact start date varies by municipality — confirm with your local clerk.",
+        "governingAuthority": "La Crosse County Clerk / Eau Claire County Clerk / municipal clerks",
+        "sourceIds": [
+          "src-wi-wec-elections",
+          "src-lacrosse-county-clerk",
+          "src-eauclaire-county-clerk"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-06-11",
+        "status": "estimated"
+      },
+      {
+        "id": "evt-wi03-general-day",
+        "milestone": "General election day",
+        "electionType": "general",
+        "date": "2026-11-03",
+        "significance": "U.S. midterm general election. WI-03: Derrick Van Orden (R, incumbent) vs. Democratic nominee (Rebecca Cooke or Emily Berge, pending August 11 primary result). Polls open 7 AM – 8 PM local time. Election Day registration at polling places available with proof of residence.",
+        "governingAuthority": "Wisconsin Elections Commission",
+        "sourceIds": [
+          "src-wi-wec-elections",
+          "src-ballotpedia-wi03"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-06-11",
+        "status": "estimated"
+      },
+      {
+        "id": "evt-wi03-general-absentee-receipt-deadline",
+        "milestone": "Absentee ballot receipt deadline — general",
+        "electionType": "general",
+        "date": "2026-11-03",
+        "significance": "Wisconsin requires absentee ballots to be received by the municipal clerk by 8:00 PM on Election Day (November 3). Wisconsin has a strict receipt deadline with NO postmark grace period — ballots arriving after 8 PM on November 3 are not counted. Voters are strongly encouraged to return ballots well in advance or use in-person absentee voting.",
+        "governingAuthority": "Wisconsin Elections Commission",
+        "sourceIds": [
+          "src-wi-wec-elections",
+          "src-wi-statutes-elections"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-06-11",
+        "status": "estimated"
+      },
+      {
+        "id": "evt-wi03-general-canvass",
+        "milestone": "County canvass and certification — general",
+        "electionType": "general",
+        "date": "2026-11-17",
+        "significance": "County clerks and boards of canvassers complete the official canvass of general election results within approximately 14 days of election day. WEC compiles statewide results after county certifications are submitted.",
+        "governingAuthority": "La Crosse / Eau Claire / Vernon / Monroe / other WI-03 county clerks",
+        "sourceIds": [
+          "src-wi-wec-elections",
+          "src-wi-statutes-elections"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-06-11",
+        "status": "estimated"
+      },
+      {
+        "id": "evt-wi03-general-wec-certification",
+        "milestone": "WEC state certification — general",
+        "electionType": "general",
+        "date": "2026-12-01",
+        "significance": "Wisconsin Elections Commission certifies the official statewide results for the November 3, 2026 general election, including the WI-03 congressional race, by the first Tuesday in December (approximately December 1, 2026). Certification is the official determination of the winner.",
+        "governingAuthority": "Wisconsin Elections Commission",
+        "sourceIds": [
+          "src-wi-wec-elections",
+          "src-wi-statutes-elections"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-06-11",
+        "status": "estimated"
+      }
+    ],
+    "RULES": [
+      {
+        "id": "rule-wi-photo-id",
+        "topic": "Photo ID required to vote",
+        "currentRule": "Wisconsin requires voters to present an acceptable photo ID at the polls. Acceptable IDs include: Wisconsin driver's license or state ID, U.S. military ID, U.S. passport, tribal ID, and certain student IDs from Wisconsin schools. Voters without ID may vote on a provisional ballot and return with ID by the close of polls.",
+        "status": "active",
+        "whyItMatters": "Wisconsin has required photo ID for in-person voting since 2015 (Wis. Stat. § 6.79). WI-03 voters must bring an acceptable photo ID on Election Day or when voting in-person absentee at the clerk's office.",
+        "governingLevel": "statewide",
+        "sourceIds": [
+          "src-wi-wec-elections",
+          "src-wi-statutes-elections"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-06-11",
+        "needsReview": true,
+        "detail": "Wis. Stat. § 6.79. Photo ID requirement upheld by Wisconsin Supreme Court. Free state IDs available at DMV for those who cannot afford one. Students must use a Wisconsin school ID with recent issuance date or also have enrollment verification."
+      },
+      {
+        "id": "rule-wi-election-day-registration",
+        "topic": "Election Day voter registration at polling place",
+        "currentRule": "Wisconsin allows voters to register at their polling place on Election Day by providing proof of residence — such as a Wisconsin driver's license with current address, a utility bill dated within 90 days, or a bank statement. The registered voter may then vote immediately.",
+        "status": "active",
+        "whyItMatters": "WI-03 voters who miss the mail/online registration deadline (20 days before election) or the clerk in-person deadline (last business day before election) can still register and vote on Election Day at their polling place.",
+        "governingLevel": "statewide",
+        "sourceIds": [
+          "src-wi-wec-elections",
+          "src-wi-statutes-elections",
+          "src-wi-myvote"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-06-11",
+        "needsReview": true,
+        "detail": "Wis. Stat. §§ 6.55, 6.86. Proof of residence must show the voter's name and current address within the polling location's jurisdiction. Multiple document types accepted. Corroborating witness from same municipality can also serve as proof."
+      },
+      {
+        "id": "rule-wi-no-excuse-absentee",
+        "topic": "No-excuse absentee (mail) voting",
+        "currentRule": "Any registered Wisconsin voter may request an absentee ballot without providing a reason. Voters may apply online at myvote.wi.gov, by mail, or in person at their municipal clerk's office. Requests must be received at least 5 days before election day.",
+        "status": "active",
+        "whyItMatters": "Any WI-03 registered voter can request a mail ballot for the August 11 primary or November 3 general election without needing to give a reason. This is different from states with excuse-required absentee voting.",
+        "governingLevel": "statewide",
+        "sourceIds": [
+          "src-wi-wec-elections",
+          "src-wi-statutes-elections",
+          "src-wi-myvote"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-06-11",
+        "needsReview": true,
+        "detail": "Wis. Stat. § 6.86. Applications submitted online or by mail must be received by the clerk no later than 5 days (Thursday) before the election. In-person absentee voting at the clerk's office is available until the Sunday before election day."
+      },
+      {
+        "id": "rule-wi-witness-signature",
+        "topic": "Witness signature required on absentee ballot",
+        "currentRule": "Wisconsin is one of the few states requiring a witness signature on the returned absentee ballot envelope. The voter must have an adult witness observe them seal and sign the ballot envelope. The witness must also sign and print their address. If the witness information is incomplete, the ballot may be challenged.",
+        "status": "active",
+        "whyItMatters": "WI-03 absentee voters must have a witness — this is a strict requirement that can result in ballot rejection. Missing or incomplete witness information is the most common reason absentee ballots are rejected in Wisconsin.",
+        "governingLevel": "statewide",
+        "sourceIds": [
+          "src-wi-wec-elections",
+          "src-wi-statutes-elections"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-06-11",
+        "needsReview": true,
+        "detail": "Wis. Stat. § 6.87(4). Witness must be an adult U.S. citizen. Witness address must be legible. Clerks must attempt to contact voters about curable witness defects before election day per Wisconsin Supreme Court rulings. The witness requirement has been subject to multiple court challenges."
+      },
+      {
+        "id": "rule-wi-absentee-curing",
+        "topic": "Absentee ballot curing (witness defects)",
+        "currentRule": "Wisconsin clerks are required to notify voters of curable defects in their absentee ballot — such as missing witness address — so that voters can cure the defect before the 8 PM Election Day deadline. The scope of permissible curing has evolved through court rulings. Clerks may fill in a missing witness address if they know it from their records, per Wisconsin Supreme Court guidance.",
+        "status": "active",
+        "whyItMatters": "WI-03 voters who submit absentee ballots with incomplete witness information may be able to cure the defect before 8 PM on Election Day. Voters should respond promptly to any clerk notification about their ballot.",
+        "governingLevel": "statewide",
+        "sourceIds": [
+          "src-wi-wec-elections",
+          "src-wi-statutes-elections",
+          "src-wispolitics"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-06-11",
+        "needsReview": true,
+        "detail": "Wisconsin Supreme Court has addressed curing scope in multiple decisions. WEC guidance and individual municipal clerk practices may vary. Wisconsin Watch/Votebeat (May 2026) covered ongoing litigation about absentee-curing procedures involving the League of Women Voters."
+      },
+      {
+        "id": "rule-wi-drop-boxes",
+        "topic": "Absentee ballot drop boxes",
+        "currentRule": "Absentee ballot drop boxes are legal in Wisconsin as of the Priorities USA v. Wisconsin Elections Commission (2024) ruling, which reversed the Wisconsin Supreme Court's 2022 Teigen v. Wisconsin Elections Commission ruling that had banned them. Municipalities may (but are not required to) provide drop boxes. The legal landscape has been volatile and individual municipalities vary.",
+        "status": "watch",
+        "whyItMatters": "Drop box availability for WI-03 voters in La Crosse, Eau Claire, and other counties depends on individual municipality decisions and ongoing litigation. Voters should not assume a drop box is available — confirm with their local clerk before relying on this option.",
+        "governingLevel": "statewide",
+        "sourceIds": [
+          "src-wi-wec-elections",
+          "src-wispolitics",
+          "src-ballotpedia-wi03"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-06-11",
+        "needsReview": true,
+        "detail": "Priorities USA v. Wisconsin Elections Commission (2024) reinstated drop box use after Teigen v. Wisconsin Elections Commission (2022) had banned them. Additional litigation and legislative action may affect availability by August 2026. Confirm current status with La Crosse County Clerk and Eau Claire County Clerk."
+      },
+      {
+        "id": "rule-wi-inperson-absentee",
+        "topic": "In-person absentee voting at clerk's office",
+        "currentRule": "Wisconsin voters can vote in person ('in-person absentee') at their municipal or county clerk's office beginning the date absentee ballots are available (typically 2 weeks before election day) through the Sunday before Election Day. No appointment required in most municipalities; hours set by each clerk.",
+        "status": "active",
+        "whyItMatters": "WI-03 voters who want to vote early can do so at their municipal or county clerk's office. This is Wisconsin's form of early voting — it functions like an absentee ballot cast in person. La Crosse and Eau Claire county clerks are the main early voting locations for WI-03's population centers.",
+        "governingLevel": "statewide",
+        "sourceIds": [
+          "src-wi-wec-elections",
+          "src-wi-statutes-elections",
+          "src-lacrosse-county-clerk",
+          "src-eauclaire-county-clerk"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-06-11",
+        "needsReview": true,
+        "detail": "Wis. Stat. § 6.855. Absentee ballot availability begins 2 weeks before primary/general. Some large municipalities (Madison, Milwaukee) may extend hours. Rural WI-03 municipalities may have limited clerk office hours — verify with Vernon, Crawford, Grant, Trempealeau, Monroe county clerks."
+      },
+      {
+        "id": "rule-wi-provisional-ballots",
+        "topic": "Provisional ballots",
+        "currentRule": "Wisconsin issues provisional ballots (called 'challenge ballots') when a voter's eligibility cannot be immediately verified — e.g., the voter does not have required photo ID or whose registration cannot be confirmed. The voter casts a provisional ballot and may provide ID or other documentation by the close of polls. The ballot is held pending verification.",
+        "status": "active",
+        "whyItMatters": "WI-03 voters without photo ID on Election Day can vote provisionally. Voters who registered on Election Day but whose proof of residence is questionable may also be challenged. Provisional ballot counts can affect outcomes in close WI-03 races.",
+        "governingLevel": "statewide",
+        "sourceIds": [
+          "src-wi-wec-elections",
+          "src-wi-statutes-elections"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-06-11",
+        "needsReview": true,
+        "detail": "Wis. Stat. § 6.97. Voters who cast a provisional ballot and later provide acceptable ID have until the close of polls on Election Day to do so. Check ballot status at myvote.wi.gov."
+      },
+      {
+        "id": "rule-wi-registration-deadline",
+        "topic": "Voter registration deadlines (three-tier system)",
+        "currentRule": "Wisconsin has three registration paths: (1) Online/mail registration must be received 20 days before election day; (2) In-person registration at the municipal clerk's office is available until the last business day before election day; (3) Election Day registration is available at the polling place with proof of residence on Election Day itself.",
+        "status": "active",
+        "whyItMatters": "WI-03 voters have flexible registration options up to and including Election Day. For the 2026 general: online/mail deadline October 14; clerk deadline November 1; Election Day registration at polls November 3.",
+        "governingLevel": "statewide",
+        "sourceIds": [
+          "src-wi-wec-elections",
+          "src-wi-statutes-elections",
+          "src-wi-myvote"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-06-11",
+        "needsReview": true,
+        "detail": "Wis. Stat. §§ 6.28, 6.55. Proof of residence for Election Day registration: current Wisconsin driver's license, utility bill within 90 days, bank statement, paycheck, or other government document with name and current address."
+      },
+      {
+        "id": "rule-wi-partisan-primary",
+        "topic": "Wisconsin partisan primary system",
+        "currentRule": "Wisconsin holds a partisan primary in August (the first Tuesday after the second Monday in August). Voters choose one party's primary ballot and vote only in that party's contests. In 2026, the WI-03 Democratic primary is contested (Cooke vs. Berge); the Republican primary is uncontested (Van Orden). The winner of each party's primary advances to the November general election.",
+        "status": "active",
+        "whyItMatters": "WI-03 registered voters must choose either the Democratic or Republican primary ballot on August 11, 2026. The primary winner faces the opposing party's nominee in November. Wisconsin does NOT use a top-two (jungle) primary system.",
+        "governingLevel": "statewide",
+        "sourceIds": [
+          "src-wi-wec-elections",
+          "src-wi-statutes-elections",
+          "src-ballotpedia-wi03"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-06-11",
+        "needsReview": true,
+        "detail": "Wis. Stat. § 8.50. Partisan primary is the first Tuesday after the second Monday in August. WEC certified Cooke and Berge for the Democratic primary ballot at its June 9, 2026 meeting."
+      },
+      {
+        "id": "rule-wi-absentee-strict-receipt",
+        "topic": "Strict absentee ballot receipt deadline (8 PM Election Day)",
+        "currentRule": "Wisconsin has a strict absentee ballot receipt deadline: all absentee ballots must be received by the voter's municipal clerk by 8:00 PM on Election Day. Wisconsin does NOT count ballots that arrive after polls close, regardless of postmark date. This is stricter than most states, which allow ballots postmarked by Election Day to arrive days later.",
+        "status": "active",
+        "whyItMatters": "WI-03 voters who mail their absentee ballot too close to Election Day risk their vote not counting. The USPS recommends mailing absentee ballots at least 7 days before Election Day. Voters in rural WI-03 counties (Crawford, Pepin, Buffalo) should allow extra time for mail delivery.",
+        "governingLevel": "statewide",
+        "sourceIds": [
+          "src-wi-wec-elections",
+          "src-wi-statutes-elections"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-06-11",
+        "needsReview": true,
+        "detail": "Wis. Stat. § 6.87(6). The strict 8 PM receipt deadline has been upheld by federal courts. News reports (2025–2026) have noted USPS delays affecting rural Wisconsin counties, making timely absentee ballot submission especially critical for WI-03 voters in smaller communities."
+      },
+      {
+        "id": "rule-wi-accessible-voting",
+        "topic": "Accessible voting and voter assistance",
+        "currentRule": "Wisconsin provides accessible voting at all polling places: accessible voting machines, curbside voting, and the right to bring an assistant (excluding employers and union agents). Voters with disabilities may have their absentee ballot witnessed by a member of their household. Large-print sample ballots and audio ballots are available.",
+        "status": "active",
+        "whyItMatters": "WI-03 voters with disabilities or mobility limitations can request curbside voting at any polling place or vote by absentee from home. Voters needing assistance at the polls may bring a trusted person to assist.",
+        "governingLevel": "statewide",
+        "sourceIds": [
+          "src-wi-wec-elections",
+          "src-wi-statutes-elections"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-06-11",
+        "needsReview": true,
+        "detail": "Wis. Stat. §§ 5.25, 6.82. Curbside voting available at all polling places. ADA-compliant polling places required. Contact La Crosse or Eau Claire county clerk for accessibility accommodations at specific locations."
+      }
+    ],
+    "RESOURCES": [
+      {
+        "id": "res-wi-myvote",
+        "label": "MyVote Wisconsin — Voter Portal",
+        "url": "https://myvote.wi.gov/",
+        "description": "Wisconsin's official voter portal: register to vote, find your polling place, request an absentee ballot, and track your ballot status. Available in multiple languages. Authoritative source for WI-03 voters in all 11 counties.",
+        "governingAuthority": "Wisconsin Elections Commission",
+        "sourceType": "official-state",
+        "sourceId": "src-wi-myvote",
+        "lastVerified": "2026-06-11"
+      },
+      {
+        "id": "res-wi-wec-elections",
+        "label": "Wisconsin Elections Commission — elections.wi.gov",
+        "url": "https://elections.wi.gov/",
+        "description": "Official Wisconsin Elections Commission hub: election calendar, voter ID requirements, absentee voting rules, drop box guidance, and candidate certification results. Authoritative source for all WI-03 election administration.",
+        "governingAuthority": "Wisconsin Elections Commission",
+        "sourceType": "official-state",
+        "sourceId": "src-wi-wec-elections",
+        "lastVerified": "2026-06-11"
+      },
+      {
+        "id": "res-wi-voter-registration",
+        "label": "MyVote Wisconsin — Register to Vote",
+        "url": "https://myvote.wi.gov/en-us/Register-To-Vote",
+        "description": "Register to vote online or check your registration status. Online/mail registration deadline for 2026 general: October 14. Election Day registration also available at the polls with proof of residence.",
+        "governingAuthority": "Wisconsin Elections Commission",
+        "sourceType": "official-state",
+        "sourceId": "src-wi-myvote",
+        "lastVerified": "2026-06-11"
+      },
+      {
+        "id": "res-wi-absentee-ballot",
+        "label": "MyVote Wisconsin — Absentee Ballot Request",
+        "url": "https://myvote.wi.gov/en-us/Vote-Absentee",
+        "description": "Request an absentee (mail) ballot online. Any registered Wisconsin voter may request without giving a reason. Deadline: 5 days before election day (October 29 for the general; August 6 for the primary).",
+        "governingAuthority": "Wisconsin Elections Commission",
+        "sourceType": "official-state",
+        "sourceId": "src-wi-myvote",
+        "lastVerified": "2026-06-11"
+      },
+      {
+        "id": "res-lacrosse-county-clerk",
+        "label": "La Crosse County Clerk — Elections",
+        "url": "https://www.lacrossecounty.org/countyclerk",
+        "description": "Official elections page for La Crosse County (La Crosse city and county — the most populous WI-03 county). In-person absentee voting hours, drop box information, and local election updates.",
+        "governingAuthority": "La Crosse County Clerk",
+        "sourceType": "official-county",
+        "sourceId": "src-lacrosse-county-clerk",
+        "lastVerified": "2026-06-11"
+      },
+      {
+        "id": "res-eauclaire-county-clerk",
+        "label": "Eau Claire County Clerk — Elections",
+        "url": "https://www.eauclairecounty.gov/our-government/departments-i-z/county-clerk",
+        "description": "Official elections page for Eau Claire County (Eau Claire city — second-largest WI-03 population center). In-person absentee voting, drop box locations, and canvass updates.",
+        "governingAuthority": "Eau Claire County Clerk",
+        "sourceType": "official-county",
+        "sourceId": "src-eauclaire-county-clerk",
+        "lastVerified": "2026-06-11"
+      },
+      {
+        "id": "res-wi-voter-id-guide",
+        "label": "Wisconsin Voter ID Guide — WEC",
+        "url": "https://elections.wi.gov/voters/photo-id",
+        "description": "Official guide to Wisconsin's photo ID requirement: acceptable ID types, how to get a free state ID, and what to do if you don't have ID on Election Day. Required for all in-person voting and in-person absentee voting in WI-03.",
+        "governingAuthority": "Wisconsin Elections Commission",
+        "sourceType": "official-state",
+        "sourceId": "src-wi-wec-elections",
+        "lastVerified": "2026-06-11"
+      },
+      {
+        "id": "res-ballotpedia-wi03",
+        "label": "Ballotpedia — WI-03 2026 election",
+        "url": "https://ballotpedia.org/Wisconsin%27s_3rd_Congressional_District_election,_2026",
+        "description": "Nonpartisan reference page for WI-03's 2026 election: candidate profiles (Van Orden, Cooke, Berge), primary results, race ratings, and campaign finance summary.",
+        "governingAuthority": "Ballotpedia",
+        "sourceType": "secondary",
+        "sourceId": "src-ballotpedia-wi03",
+        "lastVerified": "2026-06-11"
+      },
+      {
+        "id": "res-vernon-county-clerk",
+        "label": "Vernon County Clerk — Elections",
+        "url": "https://www.vernoncounty.org/county-clerk",
+        "description": "Official elections page for Vernon County voters in WI-03. Confirm in-person absentee hours and local polling place information.",
+        "governingAuthority": "Vernon County Clerk",
+        "sourceType": "official-county",
+        "sourceId": "src-vernon-county-clerk",
+        "lastVerified": "2026-06-11"
+      }
+    ],
+    "UPDATES": [
+      {
+        "id": "upd-wi03-001",
+        "title": "WI-03 dashboard initialized — 13 sources, 16 events, 12 rules, 6 news items wired",
+        "fieldChanged": "Dashboard configuration",
+        "oldValue": "Not configured",
+        "newValue": "Initial build June 11, 2026. Sources verified: WEC (elections.wi.gov), MyVote Wisconsin, Wisconsin Statutes Ch. 5–12, La Crosse County Clerk, Eau Claire County Clerk, Vernon/Monroe/Grant county clerks, Ballotpedia WI-03, WisPolitics, Center Square WI, WKOW, Isthmus. All 16 election events and 12 voting rules researched from WEC guidance and Wisconsin Statutes, all marked needsReview/unconfirmed pending authoritative 2026-specific verification. WEC held ballot access meeting June 9, 2026; Cooke, Berge, and Van Orden certified for August 11 partisan primary.",
+        "sourceIds": [
+          "src-wi-wec-elections",
+          "src-lacrosse-county-clerk",
+          "src-eauclaire-county-clerk",
+          "src-wi-myvote"
+        ],
+        "detectedAt": "2026-06-11T20:00:00Z",
+        "severity": "low",
+        "reviewState": "new",
+        "visibility": "internal_only"
+      },
+      {
+        "id": "upd-wi03-002",
+        "title": "WI-03 primary certified — Van Orden (R) vs. Democratic nominee (Cooke or Berge) set for November 3 general",
+        "fieldChanged": "General election candidates",
+        "oldValue": "Primary pending (August 11, 2026)",
+        "newValue": "WEC certified three Democratic primary candidates (Rebecca Cooke, Emily Berge, and possibly Mel M. Marin) and Republican incumbent Derrick Van Orden for the August 11, 2026 partisan primary at its June 9 meeting. Van Orden is unopposed in the Republican primary. The Democratic primary winner — heavily favored to be Rebecca Cooke based on polling — advances to face Van Orden in the November 3 general. Independent candidates Alexander Valiensi Kent and Rustin Provance filed papers; general ballot qualification pending WEC review.",
+        "sourceIds": [
+          "src-wi-wec-elections",
+          "src-ballotpedia-wi03",
+          "src-wispolitics"
+        ],
+        "detectedAt": "2026-06-09T22:00:00Z",
+        "severity": "high",
+        "reviewState": "new",
+        "visibility": "public"
+      },
+      {
+        "id": "upd-wi03-003",
+        "title": "QA pending — drop box ruling, witness curing scope, and county clerk verification needed before publish",
+        "fieldChanged": "QA status",
+        "oldValue": "Not yet reviewed",
+        "newValue": "12 voting rules and 16 election events all marked needsReview: true, confidence: unconfirmed (lastVerified 2026-06-11). Priority verification items: (1) drop box availability per municipality following Priorities USA v. WEC (2024) ruling — confirm with La Crosse and Eau Claire county clerks; (2) witness signature curing scope after Wisconsin Watch/Votebeat (May 2026) reported ongoing League of Women Voters litigation on curing procedures; (3) exact in-person absentee start dates for each WI-03 county, which vary by municipality; (4) confirm August 11 partisan primary is first Tuesday after second Monday in August 2026.",
+        "sourceIds": [
+          "src-wi-statutes-elections",
+          "src-wi-wec-elections",
+          "src-wispolitics"
+        ],
+        "detectedAt": "2026-06-11T20:00:00Z",
+        "severity": "medium",
+        "reviewState": "new",
+        "visibility": "internal_only"
+      }
+    ],
+    "CONFLICTS": [
+      {
+        "id": "conf-wi03-001",
+        "factInQuestion": "Legality and availability of absentee ballot drop boxes in Wisconsin for the 2026 elections",
+        "sourceAId": "src-wi-wec-elections",
+        "sourceAClaim": "The Priorities USA v. Wisconsin Elections Commission (2024) ruling reinstated drop box use in Wisconsin, reversing the 2022 Teigen v. WEC decision. WEC guidance indicates municipalities may provide drop boxes.",
+        "sourceBId": "src-wi-statutes-elections",
+        "sourceBClaim": "Wisconsin Statutes § 6.87 governs absentee ballot return and specifies delivery to the municipal clerk or official absentee ballot site. The statute does not explicitly authorize drop boxes, and the legal basis for drop boxes has swung between court rulings — Teigen (2022, banned), Priorities USA (2024, allowed). Additional litigation and potential legislative action may affect 2026 availability.",
+        "whyItMatters": "WI-03 voters who rely on a drop box to return their absentee ballot by the strict 8 PM Election Day deadline may be affected if drop box availability varies by municipality or if further court action changes the rules before August or November 2026. Voters in rural counties (Crawford, Pepin, Buffalo) face the most risk from USPS delays.",
+        "suggestedReviewAction": "Confirm current drop box status directly with La Crosse County Clerk and Eau Claire County Clerk. Check WEC website for any 2026-specific drop box guidance issued after June 11, 2026. Monitor Wisconsin Supreme Court docket for any pending drop box litigation. Update the drop-box rule status from 'watch' to 'active' or 'inactive' based on verified 2026 WEC guidance.",
+        "severity": "high",
+        "status": "unresolved",
+        "createdAt": "2026-06-11T20:00:00Z"
+      }
+    ],
+    "NEWS": [
+      {
+        "id": "news-wi03-001",
+        "headline": "Wisconsin Elections Commission Certifies August Primary Ballot at June 9 Meeting; WI-03 Democrats Cooke and Berge Qualified",
+        "sourceName": "Wisconsin Elections Commission (via WisPolitics press release)",
+        "url": "https://www.wispolitics.com/2026/wisconsin-elections-commission-covering-the-june-1-nomination-paper-deadline-faqs/",
+        "publishedAt": "2026-06-01",
+        "relevanceSummary": "The Wisconsin Elections Commission held its ballot access meeting on June 9, 2026, to officially certify candidates for the August 11 partisan primary and November 3 general election — the two contests that will determine who represents WI-03. The June 1 filing deadline and June 9 WEC meeting governed whether Cooke, Berge, Van Orden, and any independents appear on ballots sent to WI-03 voters in La Crosse, Eau Claire, Vernon, Crawford, and surrounding counties. The WEC FAQ advisory detailed the challenge period (deadline June 4), correction window (June 7), and noted the Commission is required by law to send certified candidate lists to county clerks no later than June 10. Congressional candidates needed at least 1,000 valid signatures; the Commission confirmed both Democratic candidates qualified.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-wi03-002",
+        "headline": "Cooke Internal Poll Shows 50-46 Lead Over Van Orden; Fundraising Advantage Grows to $600K",
+        "sourceName": "WisPolitics",
+        "url": "https://www.wispolitics.com/2026/cooke-campaign-new-poll-rebecca-cooke-grows-lead-over-derrick-van-orden-to-50-46-in-closely-watched-house-race/",
+        "publishedAt": "2026-06-04",
+        "relevanceSummary": "A new internal poll released by the Cooke campaign on June 4 shows Rebecca Cooke leading Rep. Derrick Van Orden 50-46 among likely general election voters in WI-03, a 3-point improvement from February. Van Orden's net favorability has hit -11 (40 favorable / 51 unfavorable) and -17 among Independents — a significant liability in the competitive western Wisconsin counties of Eau Claire, La Crosse, Chippewa, and Trempealeau. Cooke raised over $2.4 million in Q1 2026 and held a $600K cash-on-hand advantage entering spring ($4.4M to $3.8M), signaling an intensely contested general election ahead for district voters. The race is rated a national toss-up and has implications for House majority control.",
+        "tag": "ballot-access",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-wi03-003",
+        "headline": "Trump Rallies Chippewa Falls Farmers for Van Orden; Democratic Groups Stage Simultaneous Protest",
+        "sourceName": "PBS Wisconsin / Wisconsin Public Radio",
+        "url": "https://pbswisconsin.org/news-item/trump-visits-wisconsin-and-2026-candidates-file-for-office/",
+        "publishedAt": "2026-06-04",
+        "relevanceSummary": "President Trump held a June 5 campaign roundtable in Chippewa County — which straddles WI-03 and WI-07 — to boost support for Van Orden among farmers struggling with tariff-driven input cost increases. PBS Wisconsin and WPR reporters analyzed how Chippewa County serves as a geographic twofer for Republicans, with Van Orden needing strong rural turnout in these western Wisconsin communities to offset suburban and college-town voters in Eau Claire and La Crosse. Simultaneously, the 3rd Congressional District Democrats, Eau Claire County Democratic Party, Chippewa County Democratic Party, and Chippewa Valley Indivisible organized counter-protests near Custer Farms and Chippewa Falls Regional Airport, highlighting healthcare cuts and trade policy impacts on WI-03 farmers. PBS Wisconsin also reported the Wisconsin Supreme Court agreed to hear a congressional redistricting appeal alleging an anti-competitive gerrymander, though any ruling before November 2026 was called 'shocking' by analysts.",
+        "tag": "ballot-access",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-wi03-004",
+        "headline": "Trump Administration Working to Shore Up Van Orden; Insiders Warn Support Could Cut Both Ways",
+        "sourceName": "Wisconsin Newspaper Association / WisPolitics",
+        "url": "https://wnanews.com/2026/06/08/trump-co-working-to-shore-up-van-orden-in-western-wisconsin/",
+        "publishedAt": "2026-06-08",
+        "relevanceSummary": "A detailed June 8 analysis published by the Wisconsin Newspaper Association explains how the Trump administration sent RFK Jr. to a dairy roundtable in Elk Mound (Chippewa County, WI-03), invited Van Orden to an Oval Office clean-coal announcement, and dispatched Transportation Secretary Duffy, VA Secretary Collins, and Agriculture Secretary Rollins to the district in 2026. Political insiders warn Trump's record-low Wisconsin approval (38% overall, 22% on cost of living) and ongoing tariff impacts on WI-03 farmers and kidney-bean exporters could energize Democratic turnout across La Crosse, Eau Claire, and Chippewa County communities. Van Orden underperformed Trump by 4+ points in 2024 in the district, making base mobilization essential but high-profile Trump visits a potential double-edged sword with moderate voters.",
+        "tag": "ballot-access",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-wi03-005",
+        "headline": "DOJ Appeals to 7th Circuit After Court Dismisses Suit to Force Wisconsin to Hand Over Complete Voter File",
+        "sourceName": "Democracy Docket",
+        "url": "https://www.democracydocket.com/cases/wisconsin-doj-voter-data-access-challenge/",
+        "publishedAt": "2026-06-05",
+        "relevanceSummary": "On June 5, the DOJ appealed to the Seventh Circuit after a federal court dismissed its lawsuit seeking Wisconsin's complete, unredacted statewide voter registration database — including Social Security numbers and birth dates. The Wisconsin Elections Commission had refused to hand over the sensitive data, citing state privacy law, as part of the Trump DOJ's nationwide campaign targeting 30+ states. The lawsuit is categorized by Democracy Docket as anti-voting because the data request is tied to a push to pressure states into aggressive voter-roll purges. The outcome of the 7th Circuit appeal directly affects the privacy protections of WI-03 registered voters in La Crosse, Eau Claire, Vernon, Crawford, and the district's other western Wisconsin counties, and shapes how the WEC manages voter rolls ahead of the August primary.",
+        "tag": "litigation",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-wi03-006",
+        "headline": "Eau Claire County GOP Chair Warns 3rd CD Race 'Will Be Challenging'; Predicts $50 Million Spend to Oust Van Orden",
+        "sourceName": "WisPolitics / WISN UpFront",
+        "url": "https://www.wispolitics.com/2026/eau-claire-county-gop-chair-tells-upfront-3rd-cd-race-will-be-challenging/",
+        "publishedAt": "2026-06-08",
+        "relevanceSummary": "Fred Kappus, chair of the Eau Claire County Republican Party — one of the core WI-03 counties — said in a June 8 WISN UpFront interview that Van Orden himself estimated roughly $50 million will be spent on the 3rd CD race, making it likely the most expensive contest in western Wisconsin history. Kappus identified voter engagement as his biggest challenge, saying his top priority between now and November is energizing conservatives across western Wisconsin — including recruiting hunters, who he said vote at only a 40% rate — through mail-in ballots, early voting, and Election Day turnout. He acknowledged that sustained high gas prices could produce protest votes hurting Republicans. As the Eau Claire County Republican chair, Kappus is a direct county-level voice on election mobilization strategy in a district where Eau Claire County casts a decisive share of WI-03 votes.",
+        "tag": "administration",
+        "reviewState": "new"
+      }
+    ],
+    "LAST_REFRESH": {
+      "id": "run-2026-06-11-wi-03-initial",
+      "startedAt": "2026-06-11T19:00:00Z",
+      "completedAt": "2026-06-11T20:00:00Z",
+      "triggerType": "manual",
+      "sourcesChecked": 13,
+      "updatesCreated": 0,
+      "conflictsCreated": 1,
+      "errors": [],
+      "summary": "Initial build June 11, 2026. All 13 sources verified. WI-03 partisan primary (August 11, 2026): WEC certified Cooke (D), Berge (D), and Van Orden (R, unopposed) at June 9 meeting. Democratic primary winner faces Van Orden in November 3 general. All 16 election events and 12 voting rules researched from WEC guidance and Wisconsin Statutes Chs. 5–12, all marked needsReview/unconfirmed. Key flag: drop box legality (Priorities USA v. WEC 2024) needs county-clerk confirmation. Witness signature requirement on absentee ballots and strict 8 PM receipt deadline are Wisconsin-specific rules requiring voter awareness."
+    },
+    "NEXT_REFRESH_AT": "2026-06-18T20:00:00Z",
+    "WEEKLY_REPORT": {
+      "id": "wr-wi03-2026-w24",
+      "periodStart": "2026-06-08",
+      "periodEnd": "2026-06-14",
+      "sourcesChecked": 13,
+      "newUpdates": 0,
+      "conflictsCreated": 1,
+      "conflictsResolved": 0,
+      "deadlinesChanged": 0,
+      "rulesChanged": 0,
+      "newsItems": 6,
+      "needsReview": 28,
+      "sourceErrors": 0,
+      "summary": "Initial build week of June 8–14, 2026. WI-03 dashboard created pre-primary. WEC certified Cooke and Berge (D) and Van Orden (R, unopposed) for August 11 partisan primary. General election timeline covers: mail/online registration deadline (Oct 14), clerk in-person deadline (Nov 1), absentee ballot mailing (~Oct 6), absentee request deadline (Oct 29), in-person absentee voting window (~Oct 20 – Nov 1), Election Day (Nov 3), strict 8 PM ballot receipt deadline (Nov 3), county canvass (~Nov 17), WEC certification (~Dec 1). 1 conflict flagged: drop box legality and municipal-level availability following Priorities USA v. WEC (2024). Witness signature requirement on absentee ballots is a Wisconsin-unique rule that needs prominent voter communication. All 16 events and 12 rules marked needsReview pending county clerk verification.",
+      "generatedAt": "2026-06-11T20:00:00Z"
+    }
+  }
+}
