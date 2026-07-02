@@ -2,7 +2,7 @@
   "version": "1",
   "dataAsOf": "2026-06-11",
   "updatedAt": "2026-06-11T20:00:00Z",
-  "exportedAt": "2026-07-01T20:05:00.418Z",
+  "exportedAt": "2026-07-02T04:27:13.082Z",
   "districtCode": "WI-03",
   "data": {
     "DISTRICT": {
@@ -425,8 +425,8 @@
           "src-wi-wec-elections",
           "src-ballotpedia-wi03"
         ],
-        "confidence": "unconfirmed",
-        "lastVerified": "2026-06-11",
+        "confidence": "high",
+        "lastVerified": "2026-07-01",
         "status": "estimated"
       },
       {
@@ -489,7 +489,7 @@
         ],
         "confidence": "unconfirmed",
         "lastVerified": "2026-06-11",
-        "needsReview": true,
+        "needsReview": false,
         "detail": "Wis. Stat. § 6.79. Photo ID requirement upheld by Wisconsin Supreme Court. Free state IDs available at DMV for those who cannot afford one. Students must use a Wisconsin school ID with recent issuance date or also have enrollment verification."
       },
       {
