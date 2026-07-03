@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-06-11",
-  "updatedAt": "2026-06-11T20:00:00Z",
-  "exportedAt": "2026-07-03T00:05:10.483Z",
+  "dataAsOf": "2026-07-03",
+  "updatedAt": "2026-07-03T00:35:05.979Z",
+  "exportedAt": "2026-07-03T00:38:58.818Z",
   "districtCode": "WI-03",
   "data": {
     "DISTRICT": {
@@ -101,7 +101,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-06-11",
-        "lastVerified": "2026-06-11",
+        "lastVerified": "2026-07-03",
         "confidence": "high"
       },
       "src-lacrosse-county-clerk": {
@@ -185,7 +185,7 @@
         "sourceType": "news",
         "hierarchyLevel": 4,
         "dateAccessed": "2026-06-11",
-        "lastVerified": "2026-06-11",
+        "lastVerified": "2026-07-03",
         "confidence": "high"
       },
       "src-centersquare-wi": {
@@ -898,17 +898,17 @@
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-06-11-wi-03-initial",
-      "startedAt": "2026-06-11T19:00:00Z",
-      "completedAt": "2026-06-11T20:00:00Z",
-      "triggerType": "manual",
-      "sourcesChecked": 13,
+      "id": "run-2026-07-03-wi03-auto",
+      "startedAt": "2026-07-03T00:33:58.193Z",
+      "completedAt": "2026-07-03T00:35:05.979Z",
+      "triggerType": "scheduled",
+      "sourcesChecked": 27,
       "updatesCreated": 0,
-      "conflictsCreated": 1,
+      "conflictsCreated": 0,
       "errors": [],
-      "summary": "Initial build June 11, 2026. All 13 sources verified. WI-03 partisan primary (August 11, 2026): WEC certified Cooke (D), Berge (D), and Van Orden (R, unopposed) at June 9 meeting. Democratic primary winner faces Van Orden in November 3 general. All 16 election events and 12 voting rules researched from WEC guidance and Wisconsin Statutes Chs. 5–12, all marked needsReview/unconfirmed. Key flag: drop box legality (Priorities USA v. WEC 2024) needs county-clerk confirmation. Witness signature requirement on absentee ballots and strict 8 PM receipt deadline are Wisconsin-specific rules requiring voter awareness."
+      "summary": "Automated refresh completed 2026-07-03 for WI-03. Sources checked: 27. LLM verifications: 21. 2 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-06-18T20:00:00Z",
+    "NEXT_REFRESH_AT": "2026-07-10T00:35:05.979Z",
     "WEEKLY_REPORT": {
       "id": "wr-wi03-2026-w24",
       "periodStart": "2026-06-08",
