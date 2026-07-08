@@ -1,8 +1,8 @@
 {
   "version": "1",
   "dataAsOf": "2026-07-08",
-  "updatedAt": "2026-07-08T06:26:27.596Z",
-  "exportedAt": "2026-07-08T06:30:29.043Z",
+  "updatedAt": "2026-07-08T19:41:11.208Z",
+  "exportedAt": "2026-07-08T19:45:08.847Z",
   "districtCode": "WI-03",
   "data": {
     "DISTRICT": {
@@ -185,7 +185,7 @@
         "sourceType": "news",
         "hierarchyLevel": 4,
         "dateAccessed": "2026-06-11",
-        "lastVerified": "2026-07-03",
+        "lastVerified": "2026-07-08",
         "confidence": "high"
       },
       "src-centersquare-wi": {
@@ -919,16 +919,16 @@
     ],
     "LAST_REFRESH": {
       "id": "run-2026-07-08-wi03-auto",
-      "startedAt": "2026-07-08T06:26:22.920Z",
-      "completedAt": "2026-07-08T06:26:27.596Z",
+      "startedAt": "2026-07-08T19:39:11.118Z",
+      "completedAt": "2026-07-08T19:41:11.208Z",
       "triggerType": "scheduled",
-      "sourcesChecked": 30,
+      "sourcesChecked": 31,
       "updatesCreated": 0,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-07-08 for WI-03. Sources checked: 30. LLM verifications: 20. 2 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-07-08 for WI-03. Sources checked: 31. LLM verifications: 31. 1 lastVerified bump on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-07-15T06:26:27.596Z",
+    "NEXT_REFRESH_AT": "2026-07-15T19:41:11.208Z",
     "WEEKLY_REPORT": {
       "id": "wr-wi03-2026-w24",
       "periodStart": "2026-06-08",
