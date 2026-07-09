@@ -2,7 +2,7 @@
   "version": "1",
   "dataAsOf": "2026-07-08",
   "updatedAt": "2026-07-08T19:41:11.208Z",
-  "exportedAt": "2026-07-08T20:37:16.018Z",
+  "exportedAt": "2026-07-09T17:05:58.904Z",
   "districtCode": "WI-03",
   "data": {
     "DISTRICT": {
@@ -679,70 +679,80 @@
     ],
     "RESOURCES": [
       {
-        "id": "res-wi-myvote",
-        "label": "MyVote Wisconsin — Voter Portal",
-        "url": "https://myvote.wi.gov/",
+        "id": "res-register",
+        "label": "Register to vote",
         "description": "Wisconsin's official voter portal: register to vote, find your polling place, request an absentee ballot, and track your ballot status. Available in multiple languages. Authoritative source for WI-03 voters in all 11 counties.",
+        "url": "https://myvote.wi.gov/",
         "governingAuthority": "Wisconsin Elections Commission",
         "sourceType": "official-state",
         "sourceId": "src-wi-myvote",
-        "lastVerified": "2026-06-11"
+        "lastVerified": "2026-07-08"
       },
       {
-        "id": "res-wi-wec-elections",
-        "label": "Wisconsin Elections Commission — elections.wi.gov",
-        "url": "https://elections.wi.gov/",
+        "id": "res-locations",
+        "label": "Find voting locations",
+        "description": "Wisconsin's official voter portal: register to vote, find your polling place, request an absentee ballot, and track your ballot status. Available in multiple languages. Authoritative source for WI-03 voters in all 11 counties.",
+        "url": "https://myvote.wi.gov/",
+        "governingAuthority": "Wisconsin Elections Commission",
+        "sourceType": "official-state",
+        "sourceId": "src-wi-myvote",
+        "lastVerified": "2026-07-08"
+      },
+      {
+        "id": "res-ballot-box",
+        "label": "Find ballot boxes",
         "description": "Official Wisconsin Elections Commission hub: election calendar, voter ID requirements, absentee voting rules, drop box guidance, and candidate certification results. Authoritative source for all WI-03 election administration.",
+        "url": "https://elections.wi.gov/",
         "governingAuthority": "Wisconsin Elections Commission",
         "sourceType": "official-state",
         "sourceId": "src-wi-wec-elections",
-        "lastVerified": "2026-06-11"
+        "lastVerified": "2026-07-08"
       },
       {
-        "id": "res-wi-voter-registration",
-        "label": "MyVote Wisconsin — Register to Vote",
-        "url": "https://myvote.wi.gov/en-us/Register-To-Vote",
+        "id": "res-check-reg",
+        "label": "Check registration status",
         "description": "Register to vote online or check your registration status. Online/mail registration deadline for 2026 general: October 14. Election Day registration also available at the polls with proof of residence.",
+        "url": "https://myvote.wi.gov/en-us/Register-To-Vote",
         "governingAuthority": "Wisconsin Elections Commission",
         "sourceType": "official-state",
         "sourceId": "src-wi-myvote",
-        "lastVerified": "2026-06-11"
+        "lastVerified": "2026-07-08"
+      },
+      {
+        "id": "res-track",
+        "label": "Track your ballot",
+        "description": "Wisconsin's official voter portal: register to vote, find your polling place, request an absentee ballot, and track your ballot status. Available in multiple languages. Authoritative source for WI-03 voters in all 11 counties.",
+        "url": "https://myvote.wi.gov/",
+        "governingAuthority": "Wisconsin Elections Commission",
+        "sourceType": "official-state",
+        "sourceId": "src-wi-myvote",
+        "lastVerified": "2026-07-08"
+      },
+      {
+        "id": "res-results",
+        "label": "Election results",
+        "description": "Official elections page for Eau Claire County (Eau Claire city — second-largest WI-03 population center). In-person absentee voting, drop box locations, and canvass updates.",
+        "url": "https://www.eauclairecounty.gov/our-government/departments-i-z/county-clerk",
+        "governingAuthority": "Eau Claire County Clerk",
+        "sourceType": "official-county",
+        "sourceId": "src-eauclaire-county-clerk",
+        "lastVerified": "2026-07-08"
       },
       {
         "id": "res-wi-absentee-ballot",
         "label": "MyVote Wisconsin — Absentee Ballot Request",
-        "url": "https://myvote.wi.gov/en-us/Vote-Absentee",
         "description": "Request an absentee (mail) ballot online. Any registered Wisconsin voter may request without giving a reason. Deadline: 5 days before election day (October 29 for the general; August 6 for the primary).",
+        "url": "https://myvote.wi.gov/en-us/Vote-Absentee",
         "governingAuthority": "Wisconsin Elections Commission",
         "sourceType": "official-state",
         "sourceId": "src-wi-myvote",
-        "lastVerified": "2026-06-11"
-      },
-      {
-        "id": "res-lacrosse-county-clerk",
-        "label": "La Crosse County Clerk — Elections",
-        "url": "https://www.lacrossecounty.org/countyclerk",
-        "description": "Official elections page for La Crosse County (La Crosse city and county — the most populous WI-03 county). In-person absentee voting hours, drop box information, and local election updates.",
-        "governingAuthority": "La Crosse County Clerk",
-        "sourceType": "official-county",
-        "sourceId": "src-lacrosse-county-clerk",
-        "lastVerified": "2026-06-11"
-      },
-      {
-        "id": "res-eauclaire-county-clerk",
-        "label": "Eau Claire County Clerk — Elections",
-        "url": "https://www.eauclairecounty.gov/our-government/departments-i-z/county-clerk",
-        "description": "Official elections page for Eau Claire County (Eau Claire city — second-largest WI-03 population center). In-person absentee voting, drop box locations, and canvass updates.",
-        "governingAuthority": "Eau Claire County Clerk",
-        "sourceType": "official-county",
-        "sourceId": "src-eauclaire-county-clerk",
         "lastVerified": "2026-06-11"
       },
       {
         "id": "res-wi-voter-id-guide",
         "label": "Wisconsin Voter ID Guide — WEC",
-        "url": "https://elections.wi.gov/voters/photo-id",
         "description": "Official guide to Wisconsin's photo ID requirement: acceptable ID types, how to get a free state ID, and what to do if you don't have ID on Election Day. Required for all in-person voting and in-person absentee voting in WI-03.",
+        "url": "https://elections.wi.gov/voters/photo-id",
         "governingAuthority": "Wisconsin Elections Commission",
         "sourceType": "official-state",
         "sourceId": "src-wi-wec-elections",
@@ -751,21 +761,11 @@
       {
         "id": "res-ballotpedia-wi03",
         "label": "Ballotpedia — WI-03 2026 election",
-        "url": "https://ballotpedia.org/Wisconsin%27s_3rd_Congressional_District_election,_2026",
         "description": "Nonpartisan reference page for WI-03's 2026 election: candidate profiles (Van Orden, Cooke, Berge), primary results, race ratings, and campaign finance summary.",
+        "url": "https://ballotpedia.org/Wisconsin%27s_3rd_Congressional_District_election,_2026",
         "governingAuthority": "Ballotpedia",
         "sourceType": "secondary",
         "sourceId": "src-ballotpedia-wi03",
-        "lastVerified": "2026-06-11"
-      },
-      {
-        "id": "res-vernon-county-clerk",
-        "label": "Vernon County Clerk — Elections",
-        "url": "https://www.vernoncounty.org/county-clerk",
-        "description": "Official elections page for Vernon County voters in WI-03. Confirm in-person absentee hours and local polling place information.",
-        "governingAuthority": "Vernon County Clerk",
-        "sourceType": "official-county",
-        "sourceId": "src-vernon-county-clerk",
         "lastVerified": "2026-06-11"
       }
     ],
