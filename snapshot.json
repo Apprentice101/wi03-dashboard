@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-07-08",
-  "updatedAt": "2026-07-08T19:41:11.208Z",
-  "exportedAt": "2026-07-09T17:05:58.904Z",
+  "dataAsOf": "2026-07-15",
+  "updatedAt": "2026-07-15T06:37:14.115Z",
+  "exportedAt": "2026-07-15T06:42:19.197Z",
   "districtCode": "WI-03",
   "data": {
     "DISTRICT": {
@@ -77,7 +77,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-06-11",
-        "lastVerified": "2026-06-11",
+        "lastVerified": "2026-07-15",
         "confidence": "high"
       },
       "src-wi-myvote": {
@@ -101,7 +101,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-06-11",
-        "lastVerified": "2026-07-08",
+        "lastVerified": "2026-07-15",
         "confidence": "high"
       },
       "src-lacrosse-county-clerk": {
@@ -915,20 +915,70 @@
         "relevanceSummary": "This affects Wisconsin voters because the case concerns access to voter registration data and could influence how the state maintains its rolls before the August primary and November general election. Wisconsin Elections Commission said the Justice Department sought sensitive voter data, and the 7th Circuit denied the request to expedite the appeal.",
         "tag": "administration",
         "reviewState": "new"
+      },
+      {
+        "id": "news-wi03-0il4wl3",
+        "headline": "Wisconsin Elections Commission clarifies rules ahead of election",
+        "sourceName": "The Center Square",
+        "url": "https://www.newsbreak.com/the-center-square-509740/4767862559765-wisconsin-elections-commission-clarifies-rules-ahead-of-election",
+        "publishedAt": "2026-07-14",
+        "relevanceSummary": "The Wisconsin Elections Commission said absentee ballots returned to the municipal clerk cannot be spoiled and reissued, even if a voter changes their mind after a candidate drops out. That affects WI-03 voters because Wisconsin absentee-ballot rules apply statewide, including for the upcoming August primary.",
+        "tag": "rule-change",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-wi03-0th29ul",
+        "headline": "Ahead of Aug. 11 primary, Wisconsin Elections Commission limits ballot spoiling",
+        "sourceName": "FOX 11",
+        "url": "https://fox11online.com/news/election/ahead-of-aug-11-primary-wisconsin-elections-commission-limits-ballot-spoiling",
+        "publishedAt": "2026-07-10",
+        "relevanceSummary": "This report says the Wisconsin Elections Commission voted to limit ballot spoiling, meaning absentee voters generally cannot replace a ballot after it has been returned. That is directly relevant to WI-03 voters because it changes how absentee voting works statewide ahead of the primary.",
+        "tag": "rule-change",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-wi03-08a6sou",
+        "headline": "VoteRiders helps Wisconsinites overcome voting barriers",
+        "sourceName": "Wisconsin Justice Initiative",
+        "url": "https://www.wjiinc.org/blog/take-action-now-and-spread-the-word-voteriders-helps-wisconsinites-overcome-voting-barriers",
+        "publishedAt": "2026-07-09",
+        "relevanceSummary": "The article urges Wisconsin voters to verify registration, polling place, and ballot information at MyVote Wisconsin and to resolve any photo-ID problems before Election Day. That matters for WI-03 voters because Wisconsin voter ID and registration rules are statewide and apply in this district.",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-wi03-001r0d3",
+        "headline": "Wisconsin Supreme Court refuses to release voter records",
+        "sourceName": "The Associated Press",
+        "url": "https://www.dailypress.net/news/2026/07/wisconsin-supreme-court-refuses-to-release-voter-records/",
+        "publishedAt": "2026-07-08",
+        "relevanceSummary": "The Wisconsin Supreme Court rejected a bid to obtain guardianship records that activists said could be used to identify ineligible voters. While not changing day-to-day voting steps, the ruling affects statewide election-administration and voter-eligibility enforcement in Wisconsin, which includes WI-03.",
+        "tag": "litigation",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-wi03-0mbi8xw",
+        "headline": "Wisconsin groups ask Legislature to ensure ballots remain anonymous",
+        "sourceName": "The Center Square",
+        "url": "https://www.newsbreak.com/the-center-square-509740/4760860507952-wisconsin-groups-ask-legislature-to-ensure-ballots-remain-anonymous",
+        "publishedAt": "2026-07-07",
+        "relevanceSummary": "Two Wisconsin groups are asking lawmakers to change absentee-ballot handling rules so ballots are not tied to identifying information at central count sites. If adopted, that would affect Wisconsin absentee-ballot procedures statewide, including for WI-03 voters.",
+        "tag": "ballot-access",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-07-08-wi03-auto",
-      "startedAt": "2026-07-08T19:39:11.118Z",
-      "completedAt": "2026-07-08T19:41:11.208Z",
+      "id": "run-2026-07-15-wi03-auto",
+      "startedAt": "2026-07-15T06:35:50.102Z",
+      "completedAt": "2026-07-15T06:37:14.115Z",
       "triggerType": "scheduled",
-      "sourcesChecked": 31,
-      "updatesCreated": 0,
+      "sourcesChecked": 16,
+      "updatesCreated": 5,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-07-08 for WI-03. Sources checked: 31. LLM verifications: 31. 1 lastVerified bump on unchanged sources."
+      "summary": "Automated refresh completed 2026-07-15 for WI-03. Sources checked: 16. LLM verifications: 15. 2 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-07-15T19:41:11.208Z",
+    "NEXT_REFRESH_AT": "2026-07-22T06:37:14.115Z",
     "WEEKLY_REPORT": {
       "id": "wr-wi03-2026-w24",
       "periodStart": "2026-06-08",
