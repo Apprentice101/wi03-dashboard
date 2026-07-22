@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-07-15",
-  "updatedAt": "2026-07-15T06:37:14.115Z",
-  "exportedAt": "2026-07-15T06:42:19.197Z",
+  "dataAsOf": "2026-07-22",
+  "updatedAt": "2026-07-22T06:48:28.731Z",
+  "exportedAt": "2026-07-22T06:53:57.142Z",
   "districtCode": "WI-03",
   "data": {
     "DISTRICT": {
@@ -77,7 +77,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-06-11",
-        "lastVerified": "2026-07-15",
+        "lastVerified": "2026-07-22",
         "confidence": "high"
       },
       "src-wi-myvote": {
@@ -965,20 +965,90 @@
         "relevanceSummary": "Two Wisconsin groups are asking lawmakers to change absentee-ballot handling rules so ballots are not tied to identifying information at central count sites. If adopted, that would affect Wisconsin absentee-ballot procedures statewide, including for WI-03 voters.",
         "tag": "ballot-access",
         "reviewState": "new"
+      },
+      {
+        "id": "news-wi03-0p4ove9",
+        "headline": "Wisconsin Elections Commission clarifies rules on ‘spoiled’ absentee ballots",
+        "sourceName": "Iron Mountain Daily News (Wisconsin AP wire)",
+        "url": "https://www.ironmountaindailynews.com/news/wisconsin-apwire/2026/07/wisconsin-elections-commission-clarifies-rules/",
+        "publishedAt": "2026-07-18",
+        "relevanceSummary": "The Wisconsin Elections Commission issued guidance that once an absentee ballot has been returned to the municipal clerk it cannot be spoiled and reissued for any reason, including if the voter’s chosen candidate drops out, while still allowing replacement ballots for genuine mistakes.[2] This statewide rule governs absentee ballot procedures for all Wisconsin voters, including those in WI-03, and informs how they must handle errors and candidate changes when voting by mail.[2]",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-wi03-05wpthr",
+        "headline": "Wisconsin Democrats want to allow absentee voters to cast new primary ballot",
+        "sourceName": "ABC News",
+        "url": "https://abcnews.com/US/wireStory/wisconsin-democrats-absentee-voters-cast-new-primary-ballot-134964411",
+        "publishedAt": "2026-07-18",
+        "relevanceSummary": "This article explains that Wisconsin Democrats sought to let absentee voters who already returned ballots for candidates who later dropped out obtain and cast new ballots, but the Wisconsin Elections Commission voted 4-2 to prohibit issuing a replacement once an absentee ballot has been returned to the clerk.[1] This statewide clarification directly affects how WI-03 voters can change or correct absentee ballots in upcoming elections.[1]",
+        "tag": "rule-change",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-wi03-0sefptn",
+        "headline": "Type E Notice: Absentee Voting for Aug. 11, 2026 Election",
+        "sourceName": "Kenosha News",
+        "url": "https://kenoshanews.com/news/community/article_d59c5508-32fc-521d-97c6-c870afa4898e.html",
+        "publishedAt": "2026-07-15",
+        "relevanceSummary": "This local Type E notice outlines absentee voting dates, deadlines, and clerk office hours for the Aug. 11, 2026 election in Rochester, Wisconsin, illustrating how municipal clerks implement statewide absentee procedures that are similar for WI-03 communities even though Rochester is outside the district.[1]",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-wi03-08g7f8e",
+        "headline": "New rule in Wisconsin blocks re-voting if your candidate drops out",
+        "sourceName": "Milwaukee Journal Sentinel",
+        "url": "https://www.jsonline.com/story/news/politics/elections/2026/07/10/wisconsin-elections-officials-limit-ability-to-change-absentee-votes/90875520007/",
+        "publishedAt": "2026-07-10",
+        "relevanceSummary": "The Wisconsin Elections Commission issued new statewide guidance that once an absentee ballot has been returned, voters may no longer spoil it to change their vote, including if their chosen candidate drops out, limiting re-voting options for all Wisconsin voters, including those in WI-03.[5][3]",
+        "tag": "rule-change",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-wi03-0sxq2sl",
+        "headline": "New WEC guidance: No do-overs if you already turned in your absentee ballot",
+        "sourceName": "CBS 58",
+        "url": "https://www.cbs58.com/news/new-wec-guidance-no-do-overs-if-you-already-turned-in-your-absentee-ballot",
+        "publishedAt": "2026-07-09",
+        "relevanceSummary": "Reporting on the July 9 Wisconsin Elections Commission decision, this article explains that clerks statewide must follow guidance that prohibits voters from spoiling an absentee ballot once it has been mailed or dropped off, directly affecting absentee voting procedures for WI-03 residents.[3][5]",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-wi03-0wxunzd",
+        "headline": "How inconsistent standards led to dozens of disenfranchised voters in Mequon",
+        "sourceName": "Wisconsin Watch",
+        "url": "https://wisconsinwatch.org/2026/07/wisconsin-election-mequon-disenfranchised-voters-absentee-ballot-envelope-witness-addresses/",
+        "publishedAt": "2026-07-08",
+        "relevanceSummary": "This investigation details how clerks rejected absentee ballots over incomplete witness addresses and notes that the Wisconsin Elections Commission has clarified clerks should not reject ballots solely for lacking a state or ZIP code, highlighting statewide absentee ballot acceptance standards relevant to WI-03 voters.[4]",
+        "tag": "ballot-access",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-wi03-01hixz6",
+        "headline": "Wisconsin Elections Commission review finds probable cause Green Bay violated elections law",
+        "sourceName": "Wisconsin Public Radio",
+        "url": "https://www.wpr.org/news/wisconsin-elections-commission-review-finds-probable-cause-green-bay-violated-elections-law",
+        "publishedAt": "2026-07-02",
+        "relevanceSummary": "WEC staff found probable cause that Green Bay violated state law by mailing duplicate ballots to over 150 voters, a case that may influence statewide oversight and guidance on absentee ballot issuance affecting election administration practices across Wisconsin, including WI-03.[7]",
+        "tag": "litigation",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-07-15-wi03-auto",
-      "startedAt": "2026-07-15T06:35:50.102Z",
-      "completedAt": "2026-07-15T06:37:14.115Z",
+      "id": "run-2026-07-22-wi03-auto",
+      "startedAt": "2026-07-22T06:46:22.901Z",
+      "completedAt": "2026-07-22T06:48:28.731Z",
       "triggerType": "scheduled",
       "sourcesChecked": 16,
-      "updatesCreated": 5,
+      "updatesCreated": 7,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-07-15 for WI-03. Sources checked: 16. LLM verifications: 15. 2 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-07-22 for WI-03. Sources checked: 16. LLM verifications: 18. 1 lastVerified bump on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-07-22T06:37:14.115Z",
+    "NEXT_REFRESH_AT": "2026-07-29T06:48:28.731Z",
     "WEEKLY_REPORT": {
       "id": "wr-wi03-2026-w24",
       "periodStart": "2026-06-08",
