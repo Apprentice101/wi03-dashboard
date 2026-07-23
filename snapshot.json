@@ -2,7 +2,7 @@
   "version": "1",
   "dataAsOf": "2026-07-22",
   "updatedAt": "2026-07-22T06:48:28.731Z",
-  "exportedAt": "2026-07-22T21:18:55.464Z",
+  "exportedAt": "2026-07-23T17:33:36.150Z",
   "districtCode": "WI-03",
   "data": {
     "DISTRICT": {
@@ -79,6 +79,19 @@
         "dateAccessed": "2026-06-11",
         "lastVerified": "2026-07-22",
         "confidence": "high"
+      },
+      "src-votebeat-wi": {
+        "id": "src-votebeat-wi",
+        "name": "Votebeat Wisconsin",
+        "short": "Votebeat WI",
+        "url": "https://www.votebeat.org/wisconsin/",
+        "publisher": "Votebeat",
+        "sourceType": "news",
+        "hierarchyLevel": 6,
+        "dateAccessed": "2026-07-23",
+        "lastVerified": "2026-07-23",
+        "confidence": "high",
+        "notes": "Nonprofit civic newsroom covering Wisconsin election administration and voter procedures. Established authoritative journalism source on the WEC and county clerk practices. Matches the src-votebeat-az and src-votebeat-pa pattern used in other district configs."
       },
       "src-wi-myvote": {
         "id": "src-wi-myvote",
@@ -818,6 +831,22 @@
         "severity": "medium",
         "reviewState": "new",
         "visibility": "internal_only"
+      },
+      {
+        "id": "upd-wi03-wec-spoiling-reversal-2026",
+        "title": "WEC July 9 ballot-spoiling guidance is a reversal of its own 2022 position — now formally challenged",
+        "fieldChanged": "News feed (WEC absentee-ballot spoiling guidance context)",
+        "oldValue": "WEC July 9 decision framed as a new limit on absentee-ballot spoiling.",
+        "newValue": "Votebeat Wisconsin's July 21 reporting reframes the story: the WEC's July 9 vote reversed its own August 2022 guidance and years of Attorney General Josh Kaul's court arguments in favor of broader spoiling rights. The 4–2 vote had the three Republican commissioners joined by Democratic commissioner Carrie Riepl (a former clerk); Democratic commissioners Mark Thomsen and Ann Jacobs voted against. By adoption day, more than 36,000 Wisconsin absentee ballots had already been returned for the Aug 11 primary; nearly 68,000 had been returned by the time Democratic gubernatorial candidate Sara Rodriguez later dropped out (David Crowley had dropped out one day before the WEC vote, then re-entered after Rodriguez withdrew). The Democratic Party of Wisconsin has sent WEC a formal letter asking it to withdraw the guidance, arguing it creates inconsistent standards based only on when voters returned their ballots — an Equal Protection violation — and violates the standing principle against new rules close to an election. Law Forward's Jeff Mandell said continued litigation is 'exceedingly likely.' Practical WI-03 voter takeaway: an absentee ballot is final once returned; unlike in-person Election Day voters (who can receive up to three ballots to correct errors), absentee voters have no post-return do-over. Voters must be certain of their choice before returning the ballot. Monitor this news item and the freshness feed — the guidance could be withdrawn or enjoined before Aug 11.",
+        "sourceIds": [
+          "src-votebeat-wi",
+          "src-wi-wec-elections"
+        ],
+        "detectedAt": "2026-07-23T17:30:00Z",
+        "severity": "high",
+        "reviewState": "reviewed",
+        "visibility": "public",
+        "changeKind": "law_or_policy"
       }
     ],
     "CONFLICTS": [
@@ -836,6 +865,16 @@
       }
     ],
     "NEWS": [
+      {
+        "id": "news-wi03-wec-spoiling-reversal-2026",
+        "headline": "WEC's July 9 ballot-spoiling limit was a reversal of its own 2022 guidance — now formally challenged by Wisconsin Dems",
+        "sourceName": "Votebeat Wisconsin",
+        "url": "https://www.votebeat.org/wisconsin/2026/07/21/absentee-ballot-spoiling-elections-commission-guidance-reversal/",
+        "publishedAt": "2026-07-21",
+        "relevanceSummary": "Votebeat Wisconsin (Alexander Shur, July 21) reports that the Wisconsin Elections Commission's July 9 guidance limiting absentee-ballot spoiling was a reversal of the WEC's own August 2022 guidance and years of Attorney General Josh Kaul's court briefs defending broader spoiling rights. The 4–2 vote had the three Republican commissioners joined by Democratic commissioner Carrie Riepl (a former clerk); Democratic commissioners Mark Thomsen and Ann Jacobs voted against. Chair Don Millis (R): 'Once you've turned your ballot in, that's it.' Thomsen highlighted the mail-vs-in-person disparity — in-person voters can receive up to three ballots to fix mistakes: 'Why are we treating people that use mail differently than me if I show up?' By adoption day the WEC's own data showed 36,000+ absentee ballots already returned for the Aug 11 primary; nearly 68,000 had been returned by the time Democratic gubernatorial candidate Sara Rodriguez later dropped out (Milwaukee County Executive David Crowley had dropped out one day before the WEC vote, then re-entered the race after Rodriguez withdrew). The Democratic Party of Wisconsin has sent WEC a formal letter asking it to withdraw the guidance, citing Equal Protection concerns and the standing principle against new rules close to an election. Law Forward founder Jeff Mandell: 'It seems to me exceedingly likely that this is something that people are going to keep fighting about.' UW Law School's Bryna Godar noted the underlying statutory question is unresolved. For WI-03 voters: once an absentee ballot is returned to the clerk, it is final under current guidance — there is no post-return spoil-and-replace mechanism. Absentee voters should be certain of their choice before mailing/returning the ballot. This guidance could be withdrawn or enjoined before the Aug 11 primary; the situation is fluid.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
       {
         "id": "news-wi03-001",
         "headline": "Wisconsin Elections Commission Certifies August Primary Ballot at June 9 Meeting; WI-03 Democrats Cooke and Berge Qualified",
