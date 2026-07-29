@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-07-22",
-  "updatedAt": "2026-07-22T06:48:28.731Z",
-  "exportedAt": "2026-07-23T17:33:36.150Z",
+  "dataAsOf": "2026-07-29",
+  "updatedAt": "2026-07-29T06:51:26.927Z",
+  "exportedAt": "2026-07-29T06:57:49.299Z",
   "districtCode": "WI-03",
   "data": {
     "DISTRICT": {
@@ -77,7 +77,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-06-11",
-        "lastVerified": "2026-07-22",
+        "lastVerified": "2026-07-29",
         "confidence": "high"
       },
       "src-votebeat-wi": {
@@ -1074,20 +1074,100 @@
         "relevanceSummary": "WEC staff found probable cause that Green Bay violated state law by mailing duplicate ballots to over 150 voters, a case that may influence statewide oversight and guidance on absentee ballot issuance affecting election administration practices across Wisconsin, including WI-03.[7]",
         "tag": "litigation",
         "reviewState": "new"
+      },
+      {
+        "id": "news-wi03-0f9yh0u",
+        "headline": "Wis Repubs help pass bill to prevent noncitizen voting, which is already illegal and rarely happens",
+        "sourceName": "The Badger Project",
+        "url": "https://thebadgerproject.org/tag/derrick-van-orden/",
+        "publishedAt": "2026-07-24",
+        "relevanceSummary": "This Wisconsin investigative outlet reports on state Republicans’ support for the SAVE Act-style provisions requiring proof of citizenship and stricter voter ID rules for federal elections, highlighting how these proposed changes could tighten registration and identification requirements for WI-03 voters if enacted.[8][5]",
+        "tag": "legislation",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-wi03-0lehk06",
+        "headline": "Fact-check: How popular are voter ID requirements and what would the SAVE America Act do?",
+        "sourceName": "WRAL Fact Check",
+        "url": "https://www.wral.com/news/state/fact-check-voter-id--requirements-popular-common-july-23/",
+        "publishedAt": "2026-07-23",
+        "relevanceSummary": "This fact-check explains that the SAVE America Act would require voters nationwide to show government-issued photo ID and submit ID copies with mail ballots and proof of citizenship to register, clarifying for WI-03 voters the specific procedural changes under discussion at the federal level.[9]",
+        "tag": "voter-id",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-wi03-0rmhlbz",
+        "headline": "Thirteen House Democrats Join Republicans to Pass Voter ID Legislation Amid SAVE Act Debate",
+        "sourceName": "Headtopics (syndicated political news)",
+        "url": "https://ng.headtopics.com/news/thirteen-house-democrats-join-republicans-to-pass-voter-id-85880609",
+        "publishedAt": "2026-07-23",
+        "relevanceSummary": "This article describes bipartisan House passage of H.R. 7008, which combines national voter ID rules and documentary proof-of-citizenship requirements with stock-trading reforms, signaling a realistic possibility of future federal changes that would directly affect how WI-03 voters register and present ID at the polls.[7]",
+        "tag": "legislation",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-wi03-0l8atpr",
+        "headline": "House passes stock trading ban for Congress members with bipartisan support that included a voter ID provision",
+        "sourceName": "FOX 11 Green Bay",
+        "url": "https://fox11online.com/topic/Voter%20ID%20provision",
+        "publishedAt": "2026-07-23",
+        "relevanceSummary": "This Wisconsin-focused coverage explains that the House’s stock trading ban bill includes a voter ID provision that would impose new federal identification requirements at the polls and for absentee voting, providing WI-03 voters localized context on potential changes to federal election procedures.[2]",
+        "tag": "voter-id",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-wi03-049xc5r",
+        "headline": "Some Democrats help GOP pass voter ID bill as others call it a 'trick'",
+        "sourceName": "USA Today",
+        "url": "https://www.usatoday.com/story/news/politics/2026/07/22/house-republicans-congress-voter-id-stock-trading/91012432007/",
+        "publishedAt": "2026-07-22",
+        "relevanceSummary": "This article details House passage of the Voter ID Act attached to the Stop Insider Trading Act, outlining proposed national voter ID requirements and documentation rules for federal elections that would apply to Wisconsin and WI-03 voters if the bill becomes law, including ID rules for mail ballots.[6]",
+        "tag": "voter-id",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-wi03-0uw1iut",
+        "headline": "House passes bill that would ban members from buying stock",
+        "sourceName": "ABC News",
+        "url": "https://abcnews.com/Politics/house-passes-bill-ban-members-buying-stock/story?id=135001297",
+        "publishedAt": "2026-07-22",
+        "relevanceSummary": "The House-approved Stop Insider Trading Act includes a Voter ID Act provision that would require voters nationwide, including Wisconsin and WI-03 residents, to present a physical photo ID to vote in federal elections and to include a photocopy of their ID with mail-in or absentee ballots if enacted.[1]",
+        "tag": "voter-id",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-wi03-04zu1ks",
+        "headline": "Trump-backed SAVE Act is newest effort to collect private voter information",
+        "sourceName": "ABC News",
+        "url": "https://abcnews.com/Politics/trump-backed-save-act-newest-effort-collect-private/story?id=135030149",
+        "publishedAt": "2026-07-21",
+        "relevanceSummary": "ABC News explains the SAVE Act proposal, which would require documentary proof of citizenship to register and government-issued photo ID to vote nationwide, meaning Wisconsin and WI-03 voters could face new registration verification and mail ballot ID-copy requirements if Congress and the president adopt it.[5]",
+        "tag": "legislation",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-wi03-0gi6hmm",
+        "headline": "DMV offers information on obtaining an ID for voting",
+        "sourceName": "Wisconsin Department of Transportation",
+        "url": "https://wisconsindot.gov/Pages/about-wisdot/newsroom/news-rel/072026idvote1.aspx",
+        "publishedAt": "2026-07-20",
+        "relevanceSummary": "Wisconsin DMV explains how voters can obtain a free, valid photo ID for voting, clarifying which documents count as acceptable identification and noting that a REAL ID is not required, which directly affects in-person and absentee voters in WI-03 ahead of the August 11 primary and November general elections.[3]",
+        "tag": "voter-id",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-07-22-wi03-auto",
-      "startedAt": "2026-07-22T06:46:22.901Z",
-      "completedAt": "2026-07-22T06:48:28.731Z",
+      "id": "run-2026-07-29-wi03-auto",
+      "startedAt": "2026-07-29T06:50:11.361Z",
+      "completedAt": "2026-07-29T06:51:26.927Z",
       "triggerType": "scheduled",
-      "sourcesChecked": 16,
-      "updatesCreated": 7,
+      "sourcesChecked": 12,
+      "updatesCreated": 8,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-07-22 for WI-03. Sources checked: 16. LLM verifications: 18. 1 lastVerified bump on unchanged sources."
+      "summary": "Automated refresh completed 2026-07-29 for WI-03. Sources checked: 12. LLM verifications: 13. 1 lastVerified bump on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-07-29T06:48:28.731Z",
+    "NEXT_REFRESH_AT": "2026-08-05T06:51:26.927Z",
     "WEEKLY_REPORT": {
       "id": "wr-wi03-2026-w24",
       "periodStart": "2026-06-08",
