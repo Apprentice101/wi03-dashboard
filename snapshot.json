@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-07-29",
-  "updatedAt": "2026-07-29T06:51:26.927Z",
-  "exportedAt": "2026-07-29T06:57:49.299Z",
+  "dataAsOf": "2026-08-05",
+  "updatedAt": "2026-08-05T06:45:27.170Z",
+  "exportedAt": "2026-08-05T06:51:22.084Z",
   "districtCode": "WI-03",
   "data": {
     "DISTRICT": {
@@ -77,7 +77,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-06-11",
-        "lastVerified": "2026-07-29",
+        "lastVerified": "2026-08-05",
         "confidence": "high"
       },
       "src-votebeat-wi": {
@@ -1154,20 +1154,80 @@
         "relevanceSummary": "Wisconsin DMV explains how voters can obtain a free, valid photo ID for voting, clarifying which documents count as acceptable identification and noting that a REAL ID is not required, which directly affects in-person and absentee voters in WI-03 ahead of the August 11 primary and November general elections.[3]",
         "tag": "voter-id",
         "reviewState": "new"
+      },
+      {
+        "id": "news-wi03-0jj5iop",
+        "headline": "Democratic primary for WI-03 remains one to watch",
+        "sourceName": "Spectrum News 1",
+        "url": "https://spectrumnews1.com/wi/milwaukee/news/2026/08/04/berge-cooke-van-orden-wisconsin",
+        "publishedAt": "2026-08-04",
+        "relevanceSummary": "This WI-03 story is primarily about the district's Democratic primary, but it also signals that ballot access and candidate qualification questions remain active in the district. It is relevant mainly as candidate-focused election coverage, not as a procedural rules story.",
+        "tag": "candidates",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-wi03-04mepn4",
+        "headline": "Ruling on ballot spoiling, Bike and scooter crashes, Baton twirling championship",
+        "sourceName": "WPR",
+        "url": "https://www.wpr.org/shows/wisconsin-today-2/ruling-on-ballot-spoiling-bike-and-scooter-crashes-baton-twirling-championship",
+        "publishedAt": "2026-07-31",
+        "relevanceSummary": "WPR discussed the Dane County ruling that Wisconsin voters who already submitted absentee ballots cannot spoil them to change their votes before the primary. That is statewide procedure news that applies directly to WI-03 absentee voters.",
+        "tag": "rule-change",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-wi03-0agihih",
+        "headline": "Judge Rejects Attempt to Let Absentee Voters Recast Ballots After Candidates Withdraw",
+        "sourceName": "Urban Milwaukee",
+        "url": "https://urbanmilwaukee.com/2026/07/30/judge-rejects-attempt-to-let-absentee-voters-recast-ballots-after-candidates-withdraw/",
+        "publishedAt": "2026-07-30",
+        "relevanceSummary": "This article reports a Dane County ruling that absentee voters cannot change already-returned ballots even when candidates withdraw from the race. That is directly relevant to Wisconsin voters statewide, including WI-03 absentee voters tracking the August primary.",
+        "tag": "litigation",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-wi03-07czovd",
+        "headline": "Wisconsin Elections Commission again says do-over votes not allowed",
+        "sourceName": "The Center Square",
+        "url": "https://www.thecentersquare.com/wisconsin/article_66c329cf-564f-4628-97c8-2641c0c8a3ed.html",
+        "publishedAt": "2026-07-30",
+        "relevanceSummary": "This report says the Wisconsin Elections Commission reaffirmed that voters cannot redo absentee ballots after returning them, reinforcing statewide ballot-return rules. WI-03 absentee voters should know that once a ballot is delivered to a clerk, they generally cannot replace it with a new one.",
+        "tag": "rule-change",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-wi03-06poe9d",
+        "headline": "Judge rejects Democrats' request to allow primary re-votes",
+        "sourceName": "News From The States",
+        "url": "https://www.newsfromthestates.com/article/judge-rejects-democrats-request-allow-primary-re-votes",
+        "publishedAt": "2026-07-30",
+        "relevanceSummary": "A Dane County judge rejected a request to let absentee voters spoil and re-cast ballots after candidates withdrew, saying Wisconsin law does not allow absentee ballot do-overs once the ballot is returned. That affects Wisconsin voters statewide, including WI-03 absentee voters preparing for the August 11 primary.",
+        "tag": "litigation",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-wi03-0krufcr",
+        "headline": "Wisconsin judge rules that paper absentee ballots violate rights",
+        "sourceName": "ABC News",
+        "url": "https://abcnews.com/Politics/wireStory/wisconsin-judge-rules-paper-absentee-ballots-violate-rights-135364480",
+        "publishedAt": "2026-07-29",
+        "relevanceSummary": "A Dane County Circuit Judge ruled that Wisconsin's paper-only absentee ballot process discriminates against disabled voters, though he did not order electronic ballots yet. Because Wisconsin election rules apply statewide, this case could affect absentee ballot procedures for WI-03 voters if the remedy changes.",
+        "tag": "litigation",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-07-29-wi03-auto",
-      "startedAt": "2026-07-29T06:50:11.361Z",
-      "completedAt": "2026-07-29T06:51:26.927Z",
+      "id": "run-2026-08-05-wi03-auto",
+      "startedAt": "2026-08-05T06:44:17.316Z",
+      "completedAt": "2026-08-05T06:45:27.170Z",
       "triggerType": "scheduled",
-      "sourcesChecked": 12,
-      "updatesCreated": 8,
+      "sourcesChecked": 13,
+      "updatesCreated": 6,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-07-29 for WI-03. Sources checked: 12. LLM verifications: 13. 1 lastVerified bump on unchanged sources."
+      "summary": "Automated refresh completed 2026-08-05 for WI-03. Sources checked: 13. LLM verifications: 14. 1 lastVerified bump on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-08-05T06:51:26.927Z",
+    "NEXT_REFRESH_AT": "2026-08-12T06:45:27.170Z",
     "WEEKLY_REPORT": {
       "id": "wr-wi03-2026-w24",
       "periodStart": "2026-06-08",
