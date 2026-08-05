@@ -2,7 +2,7 @@
   "version": "1",
   "dataAsOf": "2026-08-05",
   "updatedAt": "2026-08-05T06:45:27.170Z",
-  "exportedAt": "2026-08-05T06:51:22.084Z",
+  "exportedAt": "2026-08-05T18:05:26.096Z",
   "districtCode": "WI-03",
   "data": {
     "DISTRICT": {
@@ -236,6 +236,19 @@
         "dateAccessed": "2026-06-11",
         "lastVerified": "2026-06-11",
         "confidence": "high"
+      },
+      "src-doj-nvra": {
+        "id": "src-doj-nvra",
+        "name": "U.S. Department of Justice — The National Voter Registration Act of 1993 (NVRA)",
+        "short": "DOJ NVRA",
+        "url": "https://www.justice.gov/crt/national-voter-registration-act-1993-nvra",
+        "publisher": "U.S. Department of Justice, Civil Rights Division",
+        "sourceType": "statutory",
+        "hierarchyLevel": 1,
+        "dateAccessed": "2026-08-05",
+        "lastVerified": "2026-08-05",
+        "confidence": "high",
+        "notes": "Federal statute (52 U.S.C. §§ 20501–20511). Section 8 requires states to complete any systematic program to remove ineligible voters from official lists at least 90 days before a primary or general election for federal office. The NVRA does NOT apply to six states — Idaho, Minnesota, New Hampshire, North Dakota, Wisconsin, and Wyoming — because on and after August 1, 1994 they either had no voter-registration requirements or had election-day voter registration at polling places for federal elections."
       }
     },
     "ELECTION_EVENTS": [
@@ -674,6 +687,23 @@
         "detail": "Wis. Stat. § 6.87(6). The strict 8 PM receipt deadline has been upheld by federal courts. News reports (2025–2026) have noted USPS delays affecting rural Wisconsin counties, making timely absentee ballot submission especially critical for WI-03 voters in smaller communities."
       },
       {
+        "id": "rule-wi-nvra-exemption",
+        "topic": "National Voter Registration Act (NVRA) — Wisconsin is EXEMPT",
+        "currentRule": "Wisconsin is one of six states (with Idaho, Minnesota, New Hampshire, North Dakota, and Wyoming) that are exempt from the National Voter Registration Act of 1993 (NVRA). The exemption applies because on and after August 1, 1994, Wisconsin had election-day voter registration at polling places for federal elections. Because of this exemption, the NVRA's Section 8 requirement — that states complete any systematic program to remove ineligible voters from the official voter list at least 90 days before a federal primary or general election — does NOT apply in Wisconsin. Wisconsin's voter-list maintenance is instead governed by state law and Wisconsin Elections Commission (WEC) procedures.",
+        "status": "active",
+        "whyItMatters": "WI-03 voters should understand that voter-roll maintenance in Wisconsin operates on state rules, not the federal 90-day NVRA deadline. This context is directly relevant to the ongoing DOJ voter-data litigation (see news items) — one of the reasons Wisconsin's position in that fight is distinct from most other states is that Wisconsin is not bound by NVRA list-maintenance requirements. Wisconsin also offers election-day registration at the polls, meaning eligible WI-03 voters who are not yet registered on Election Day can register and vote in person at their polling place.",
+        "governingLevel": "federal",
+        "sourceIds": [
+          "src-doj-nvra",
+          "src-wi-wec-elections",
+          "src-wi-statutes-elections"
+        ],
+        "confidence": "high",
+        "lastVerified": "2026-08-05",
+        "needsReview": false,
+        "detail": "NVRA, 52 U.S.C. §§ 20501–20511; Section 8 list-maintenance provisions codified at 52 U.S.C. § 20507 (the 90-day pre-election deadline is at § 20507(c)(2)(A) — subsection reference flagged for review). Wisconsin's exemption is set out on the DOJ Civil Rights Division NVRA page. Wisconsin's state-law list-maintenance regime is administered by the Wisconsin Elections Commission under Wis. Stat. ch. 6."
+      },
+      {
         "id": "rule-wi-accessible-voting",
         "topic": "Accessible voting and voter assistance",
         "currentRule": "Wisconsin provides accessible voting at all polling places: accessible voting machines, curbside voting, and the right to bring an assistant (excluding employers and union agents). Voters with disabilities may have their absentee ballot witnessed by a member of their household. Large-print sample ballots and audio ballots are available.",
@@ -783,6 +813,20 @@
       }
     ],
     "UPDATES": [
+      {
+        "id": "upd-wi03-nvra",
+        "title": "Added rule documenting Wisconsin's NVRA exemption (Section 8 list-maintenance)",
+        "fieldChanged": "RULES",
+        "oldValue": "No rule documented Wisconsin's exempt status under the National Voter Registration Act of 1993.",
+        "newValue": "Added rule-wi-nvra-exemption. Wisconsin is one of six states (Idaho, Minnesota, New Hampshire, North Dakota, Wisconsin, Wyoming) exempt from the NVRA because on and after August 1, 1994 the state had election-day voter registration at polling places for federal elections. NVRA Section 8's 90-day pre-election deadline for removing ineligible voters (52 U.S.C. § 20507) does NOT apply in Wisconsin. This context is directly relevant to the ongoing DOJ voter-data litigation covered in the WI-03 news feed. Also added src-doj-nvra source citing DOJ Civil Rights Division's NVRA page.",
+        "sourceIds": [
+          "src-doj-nvra"
+        ],
+        "detectedAt": "2026-08-05T17:55:00Z",
+        "severity": "medium",
+        "reviewState": "new",
+        "visibility": "public"
+      },
       {
         "id": "upd-wi03-001",
         "title": "WI-03 dashboard initialized — 13 sources, 16 events, 12 rules, 6 news items wired",
