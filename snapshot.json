@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-08-05",
-  "updatedAt": "2026-08-05T06:45:27.170Z",
-  "exportedAt": "2026-08-05T18:05:26.096Z",
+  "dataAsOf": "2026-08-12",
+  "updatedAt": "2026-08-12T05:44:56.131Z",
+  "exportedAt": "2026-08-12T05:50:44.727Z",
   "districtCode": "WI-03",
   "data": {
     "DISTRICT": {
@@ -77,7 +77,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-06-11",
-        "lastVerified": "2026-08-05",
+        "lastVerified": "2026-08-12",
         "confidence": "high"
       },
       "src-votebeat-wi": {
@@ -114,7 +114,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-06-11",
-        "lastVerified": "2026-07-15",
+        "lastVerified": "2026-08-12",
         "confidence": "high"
       },
       "src-lacrosse-county-clerk": {
@@ -246,7 +246,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-08-05",
-        "lastVerified": "2026-08-05",
+        "lastVerified": "2026-08-12",
         "confidence": "high",
         "notes": "Federal statute (52 U.S.C. §§ 20501–20511). Section 8 requires states to complete any systematic program to remove ineligible voters from official lists at least 90 days before a primary or general election for federal office. The NVRA does NOT apply to six states — Idaho, Minnesota, New Hampshire, North Dakota, Wisconsin, and Wyoming — because on and after August 1, 1994 they either had no voter-registration requirements or had election-day voter registration at polling places for federal elections."
       }
@@ -1258,20 +1258,80 @@
         "relevanceSummary": "A Dane County Circuit Judge ruled that Wisconsin's paper-only absentee ballot process discriminates against disabled voters, though he did not order electronic ballots yet. Because Wisconsin election rules apply statewide, this case could affect absentee ballot procedures for WI-03 voters if the remedy changes.",
         "tag": "litigation",
         "reviewState": "new"
+      },
+      {
+        "id": "news-wi03-082o62o",
+        "headline": "Here's when to expect results in Wisconsin's primary election",
+        "sourceName": "Wisconsin Watch",
+        "url": "https://wisconsinwatch.org/2026/08/wisconsin-primary-election-voting-when-to-expect-results-2026/",
+        "publishedAt": "2026-08-11",
+        "relevanceSummary": "Wisconsin Watch’s results explainer is relevant to WI-03 voters because it covers statewide election administration and the timing of results reporting after the primary. That matters in Wisconsin, where county canvass and tabulation procedures determine when voters learn outcomes.",
+        "tag": "results",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-wi03-0p40yl2",
+        "headline": "Wisconsin's 2026 primary election arrives with high-profile races for governor, two congressional seats",
+        "sourceName": "PBS Wisconsin",
+        "url": "https://pbswisconsin.org/news-item/wisconsins-2026-primary-election-arrives-with-high-profile-races-for-governor-two-congressional-seats/",
+        "publishedAt": "2026-08-11",
+        "relevanceSummary": "PBS Wisconsin reports that the winners of the August 11 primaries for governor and Wisconsin’s 3rd Congressional District advance to the November general election. For WI-03 voters, this is relevant because it confirms the district’s candidate path to the general-election ballot.",
+        "tag": "candidates",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-wi03-0vat1k7",
+        "headline": "Election Day in Wisconsin? Here's info on time, where to vote, and what to bring",
+        "sourceName": "AOL / USA Today network",
+        "url": "https://www.aol.com/articles/election-day-wisconsin-heres-time-100349000.html",
+        "publishedAt": "2026-08-11",
+        "relevanceSummary": "This article gives the statewide voting basics Wisconsin voters need, including polling hours, locating a polling place, photo ID rules, and acceptable identification documents. Because WI-03 voters are also Wisconsin voters, these procedures directly affect district residents.",
+        "tag": "voter-id",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-wi03-024gmp9",
+        "headline": "Wisconsin election today: What do I need? Where do I vote?",
+        "sourceName": "Milwaukee Journal Sentinel",
+        "url": "https://www.jsonline.com/story/news/politics/elections/2026/08/11/wisconsin-election-today-what-i-need-where-to-vote/91255518007/",
+        "publishedAt": "2026-08-11",
+        "relevanceSummary": "This statewide voter-information article explains Wisconsin polling-place hours, photo ID requirements, acceptable IDs, registration proof-of-residence rules, and the provisional-ballot process for voters without ID. Those rules apply to WI-03 voters because Wisconsin elections are administered under the same statewide procedures.",
+        "tag": "voter-id",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-wi03-0fh1a6s",
+        "headline": "County Clerk's notice regarding use of stickers for write-in ballots",
+        "sourceName": "Kenosha County",
+        "url": "https://www.kenoshacountywi.gov/m/newsflash/Home/Detail/3632",
+        "publishedAt": "2026-08-05",
+        "relevanceSummary": "Kenosha County says stickers are not authorized on ballots under Wisconsin law, except in a narrow candidate-death exception, and warns they can interfere with election equipment. That is directly relevant to voters and candidates in Wisconsin because ballot-marking rules are statewide and counties administer those ballots.",
+        "tag": "ballot-access",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-wi03-09ky4dp",
+        "headline": "West Bend ensuring election integrity with public testing Tuesday",
+        "sourceName": "West Bend Daily News",
+        "url": "https://westbenddailynews-wi.newsmemory.com/rss.php?date=20260805&edition=West+Bend+Daily+News&subsection=Front+Page&page=wb_01a_0805.pdf.0&id=art_3.xml&device=",
+        "publishedAt": "2026-08-05",
+        "relevanceSummary": "This local election-administration story is relevant to WI-03 voters because it covers public testing of voting equipment ahead of an election, a standard procedure that affects how ballots are counted in Wisconsin. County-level testing and equipment verification can influence voter confidence and polling-place readiness in the district’s broader state system.",
+        "tag": "administration",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-08-05-wi03-auto",
-      "startedAt": "2026-08-05T06:44:17.316Z",
-      "completedAt": "2026-08-05T06:45:27.170Z",
+      "id": "run-2026-08-12-wi03-auto",
+      "startedAt": "2026-08-12T05:44:01.385Z",
+      "completedAt": "2026-08-12T05:44:56.131Z",
       "triggerType": "scheduled",
-      "sourcesChecked": 13,
+      "sourcesChecked": 15,
       "updatesCreated": 6,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-08-05 for WI-03. Sources checked: 13. LLM verifications: 14. 1 lastVerified bump on unchanged sources."
+      "summary": "Automated refresh completed 2026-08-12 for WI-03. Sources checked: 15. LLM verifications: 14. 3 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-08-12T06:45:27.170Z",
+    "NEXT_REFRESH_AT": "2026-08-19T05:44:56.131Z",
     "WEEKLY_REPORT": {
       "id": "wr-wi03-2026-w24",
       "periodStart": "2026-06-08",
