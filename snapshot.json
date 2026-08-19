@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-08-12",
-  "updatedAt": "2026-08-12T05:44:56.131Z",
-  "exportedAt": "2026-08-12T05:50:44.727Z",
+  "dataAsOf": "2026-08-19",
+  "updatedAt": "2026-08-19T05:05:05.534Z",
+  "exportedAt": "2026-08-19T05:10:49.120Z",
   "districtCode": "WI-03",
   "data": {
     "DISTRICT": {
@@ -77,7 +77,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-06-11",
-        "lastVerified": "2026-08-12",
+        "lastVerified": "2026-08-19",
         "confidence": "high"
       },
       "src-votebeat-wi": {
@@ -114,7 +114,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-06-11",
-        "lastVerified": "2026-08-12",
+        "lastVerified": "2026-08-19",
         "confidence": "high"
       },
       "src-lacrosse-county-clerk": {
@@ -246,7 +246,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-08-05",
-        "lastVerified": "2026-08-12",
+        "lastVerified": "2026-08-19",
         "confidence": "high",
         "notes": "Federal statute (52 U.S.C. §§ 20501–20511). Section 8 requires states to complete any systematic program to remove ineligible voters from official lists at least 90 days before a primary or general election for federal office. The NVRA does NOT apply to six states — Idaho, Minnesota, New Hampshire, North Dakota, Wisconsin, and Wyoming — because on and after August 1, 1994 they either had no voter-registration requirements or had election-day voter registration at polling places for federal elections."
       }
@@ -1318,20 +1318,100 @@
         "relevanceSummary": "This local election-administration story is relevant to WI-03 voters because it covers public testing of voting equipment ahead of an election, a standard procedure that affects how ballots are counted in Wisconsin. County-level testing and equipment verification can influence voter confidence and polling-place readiness in the district’s broader state system.",
         "tag": "administration",
         "reviewState": "new"
+      },
+      {
+        "id": "news-wi03-0r1aob3",
+        "headline": "Wisconsin election officials reject 'fraud' claims over Milwaukee ballot data error",
+        "sourceName": "AFP Fact Check",
+        "url": "https://factcheck.afp.com/doc.afp.com.C4LD9ZQ",
+        "publishedAt": "2026-08-18",
+        "relevanceSummary": "AFP reports that the Wisconsin Elections Commission explained an August 11 Milwaukee absentee-ballot tabulation error as human error downloading audit logs instead of results to USB drives, stressing that no ballots were lost or changed and that canvassing and paper-ballot backups ensure vote integrity statewide.[2] WI-03 voters should be aware of these safeguards and the Commission’s procedures review ahead of November, since the same systems and security measures apply to their ballots.",
+        "tag": "security",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-wi03-061zpsr",
+        "headline": "Democratic primary turnout soars in Wisconsin, other states in 2026",
+        "sourceName": "PBS Wisconsin",
+        "url": "https://pbswisconsin.org/news-item/democratic-primary-turnout-soars-in-wisconsin-other-states-in-2026/",
+        "publishedAt": "2026-08-17",
+        "relevanceSummary": "PBS Wisconsin reports that more than 790,000 people voted in the Aug. 11 Democratic primary for governor, putting turnout at about 22% of registered voters and showing high use of polling places and absentee options around the state.[13] While not focused on specific rules, this turnout data helps WI-03 voters contextualize current election administration demands and potential adjustments governments may make to polling locations and early-voting logistics ahead of November.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-wi03-0n02ugp",
+        "headline": "'Here & Now' Highlights: Bill McCoshen & Scot Ross, Alexander Shur",
+        "sourceName": "PBS Wisconsin",
+        "url": "https://pbswisconsin.org/news-item/here-now-highlights-bill-mccoshen-scot-ross-alexander-shur/",
+        "publishedAt": "2026-08-17",
+        "relevanceSummary": "PBS Wisconsin’s highlights note that a human error at Milwaukee’s Central Count several hours after polls closed on Aug. 11 delayed reporting of primary results and that this mistake is expected to increase scrutiny of the city’s processes before the Nov. 3 general election.[7] WI-03 voters should be aware that statewide attention to ballot-processing procedures and post-election reporting could lead to changes or tighter checks that also apply in their counties.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-wi03-0pe5hwf",
+        "headline": "The Story About Milwaukee's Election Night Error Just Got More Suspicious",
+        "sourceName": "Townhall",
+        "url": "https://townhall.com/news/amy-curtis/2026/08/14/milwaukee-voting-machines-n2681238",
+        "publishedAt": "2026-08-14",
+        "relevanceSummary": "Townhall describes the Aug. 11 delay in Milwaukee’s vote totals caused when election commission staff mistakenly downloaded audit logs instead of vote totals onto USB drives, prompting questions and criticism about procedures and transparency in the city’s ballot-processing operations.[5] WI-03 voters should note this ongoing debate, as any procedural clarifications or reforms in response to the incident would shape statewide election administration rules.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-wi03-0ips7ty",
+        "headline": "Alexander Shur on vote tabulation and reporting in Wisconsin",
+        "sourceName": "PBS Wisconsin / Votebeat",
+        "url": "https://pbswisconsin.org/news-item/alexander-shur-on-vote-tabulation-and-reporting-in-wisconsin/",
+        "publishedAt": "2026-08-14",
+        "relevanceSummary": "PBS Wisconsin highlights Votebeat reporter Alexander Shur’s explanation of the Milwaukee vote-tally delay in the August 11 primary and his broader discussion of how Wisconsin officials process and report ballots, including absentee counting and safeguards against tampering.[14] WI-03 voters gain insight into statewide tabulation procedures and reporting timelines that will apply in their district during the November general.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-wi03-0qh6tj6",
+        "headline": "Milwaukee election error delays primary results",
+        "sourceName": "Wisconsin Law Journal",
+        "url": "https://wislawjournal.com/2026/08/14/milwaukee-election-error-delays-primary-results/",
+        "publishedAt": "2026-08-14",
+        "relevanceSummary": "The Wisconsin Law Journal details how a Milwaukee election worker pressed the wrong button while downloading absentee ballot results on August 11, causing five of nine flash drives to contain audit logs instead of tallies and delaying reporting until early August 12, while officials emphasized votes were accurately reported and said protocols will be reviewed before the November election.[9] This matters to WI-03 voters because it shows how central-count absentee processing, USB-based tabulation reporting, and pre-November procedure adjustments may affect statewide election administration.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-wi03-0lbvc0h",
+        "headline": "As it happened: Democratic socialist is neck and neck with moderate in Wisconsin governor primary",
+        "sourceName": "AP News Live Blog",
+        "url": "https://apnews.com/live/election-primary-08-11-2026",
+        "publishedAt": "2026-08-13",
+        "relevanceSummary": "The Associated Press live coverage of Wisconsin’s Aug. 11 primary notes that primary results were delayed by an absentee-ballot uploading error, underscoring how technical mistakes in ballot data handling can affect the timing of statewide election results.[15] WI-03 voters benefit from understanding that absentee ballot uploads and error correction may influence when they see official results in November.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-wi03-0m2kyya",
+        "headline": "State Lawmaker Wants Details About Election Error",
+        "sourceName": "Seehafer News",
+        "url": "https://www.seehafernews.com/2026/08/13/state-lawmaker-wants-details-about-election-error/",
+        "publishedAt": "2026-08-13",
+        "relevanceSummary": "Seehafer News reports that a Wisconsin Rapids lawmaker is seeking more information about the Milwaukee vote-reporting delay, which officials attributed to human error and missing USB sticks that required re-downloading results for five of nine tabulators.[8] For WI-03 voters, this reflects statewide legislative scrutiny of election administration and may prompt procedural clarifications or statutory changes affecting how results are collected and reported.",
+        "tag": "legislation",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-08-12-wi03-auto",
-      "startedAt": "2026-08-12T05:44:01.385Z",
-      "completedAt": "2026-08-12T05:44:56.131Z",
+      "id": "run-2026-08-19-wi03-auto",
+      "startedAt": "2026-08-19T05:03:24.054Z",
+      "completedAt": "2026-08-19T05:05:05.534Z",
       "triggerType": "scheduled",
-      "sourcesChecked": 15,
-      "updatesCreated": 6,
+      "sourcesChecked": 14,
+      "updatesCreated": 8,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-08-12 for WI-03. Sources checked: 15. LLM verifications: 14. 3 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-08-19 for WI-03. Sources checked: 14. LLM verifications: 14. 3 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-08-19T05:44:56.131Z",
+    "NEXT_REFRESH_AT": "2026-08-26T05:05:05.534Z",
     "WEEKLY_REPORT": {
       "id": "wr-wi03-2026-w24",
       "periodStart": "2026-06-08",
