@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-08-19",
-  "updatedAt": "2026-08-19T05:05:05.534Z",
-  "exportedAt": "2026-08-19T05:10:49.120Z",
+  "dataAsOf": "2026-08-26",
+  "updatedAt": "2026-08-26T05:13:04.377Z",
+  "exportedAt": "2026-08-26T05:18:41.019Z",
   "districtCode": "WI-03",
   "data": {
     "DISTRICT": {
@@ -77,7 +77,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-06-11",
-        "lastVerified": "2026-08-19",
+        "lastVerified": "2026-08-26",
         "confidence": "high"
       },
       "src-votebeat-wi": {
@@ -114,7 +114,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-06-11",
-        "lastVerified": "2026-08-19",
+        "lastVerified": "2026-08-26",
         "confidence": "high"
       },
       "src-lacrosse-county-clerk": {
@@ -246,7 +246,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-08-05",
-        "lastVerified": "2026-08-19",
+        "lastVerified": "2026-08-26",
         "confidence": "high",
         "notes": "Federal statute (52 U.S.C. §§ 20501–20511). Section 8 requires states to complete any systematic program to remove ineligible voters from official lists at least 90 days before a primary or general election for federal office. The NVRA does NOT apply to six states — Idaho, Minnesota, New Hampshire, North Dakota, Wisconsin, and Wyoming — because on and after August 1, 1994 they either had no voter-registration requirements or had election-day voter registration at polling places for federal elections."
       }
@@ -1398,20 +1398,100 @@
         "relevanceSummary": "Seehafer News reports that a Wisconsin Rapids lawmaker is seeking more information about the Milwaukee vote-reporting delay, which officials attributed to human error and missing USB sticks that required re-downloading results for five of nine tabulators.[8] For WI-03 voters, this reflects statewide legislative scrutiny of election administration and may prompt procedural clarifications or statutory changes affecting how results are collected and reported.",
         "tag": "legislation",
         "reviewState": "new"
+      },
+      {
+        "id": "news-wi03-0i1k3s3",
+        "headline": "Supreme Court order on mail-in voting won't immediately change rules for Wisconsin early voting",
+        "sourceName": "Wisconsin Public Radio",
+        "url": "https://www.wpr.org/news/supreme-court-mail-ballots-wisconsin-early-voting-midterms",
+        "publishedAt": "2026-08-25",
+        "relevanceSummary": "The article explains that despite a Supreme Court order on mail-in voting, Wisconsin must still mail ballots to overseas and military voters 45 days before the election under federal law, confirming that current absentee and early-voting timelines remain in effect for all Wisconsin voters, including those in WI-03.[11]",
+        "tag": "litigation",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-wi03-0bjp7ln",
+        "headline": "Wisconsin committee chair seeks answers on error in Milwaukee that delayed election results",
+        "sourceName": "Wisconsin Public Radio",
+        "url": "https://www.wpr.org/news/wisconsin-error-milwaukee-delayed-election-results",
+        "publishedAt": "2026-08-25",
+        "relevanceSummary": "This report details a human error in Milwaukee where audit logs were exported instead of actual results, delaying reporting but not affecting accuracy, and describes enhanced instructions and briefings being implemented, signaling improved result-tabulation procedures and observer transparency practices relevant to election administration statewide, including WI-03.[9]",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-wi03-0rpiyfg",
+        "headline": "Wisconsin commissioners want answers on Milwaukee election night gaffe",
+        "sourceName": "Milwaukee Journal Sentinel",
+        "url": "https://www.jsonline.com/story/news/politics/elections/2026/08/25/wisconsin-commissioners-want-answers-on-milwaukee-election-night-gaffe/91385136007/",
+        "publishedAt": "2026-08-25",
+        "relevanceSummary": "State election commissioners are demanding Milwaukee officials release audit logs and a training plan after workers failed to properly download election results, causing delays but not affecting vote accuracy, illustrating statewide concerns about central count procedures, audit practices, and poll-worker training that shape how future elections are administered across Wisconsin, including WI-03.[5]",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-wi03-0pbt70r",
+        "headline": "Mail-in ballot ruling likely has no effect in Wisconsin, official says",
+        "sourceName": "Milwaukee Journal Sentinel",
+        "url": "https://www.jsonline.com/story/news/politics/elections/2026/08/24/mail-in-ballot-ruling-likely-has-no-effect-in-wisconsin-official-says/91449563007/",
+        "publishedAt": "2026-08-25",
+        "relevanceSummary": "A top Wisconsin elections official explains that a recent U.S. Supreme Court decision on federal control of mail-in ballots is unlikely to change Wisconsin’s mail voting procedures immediately, clarifying that existing rules for absentee and mail-in ballots remain in place for all Wisconsin voters, including those in WI-03.[4]",
+        "tag": "litigation",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-wi03-0wdy99q",
+        "headline": "US Postal Service rule tightens mail-in voting despite court injunction",
+        "sourceName": "The Guardian",
+        "url": "https://www.theguardian.com/us-news/2026/aug/21/us-postal-service-mail-in-voter-rule",
+        "publishedAt": "2026-08-22",
+        "relevanceSummary": "This piece describes a new USPS rule that would require states to share voter lists and adopt new ballot procedures before the agency would make deliveries, changes that could alter how Wisconsin handles mail-in ballots and voter data once an injunction is lifted, affecting mail voting logistics for WI-03 voters.[14]",
+        "tag": "rule-change",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-wi03-0p5yql9",
+        "headline": "Issues with election systems delayed primary results in two Wisconsin counties",
+        "sourceName": "Wisconsin Watch",
+        "url": "https://wisconsinwatch.org/2026/08/wisconsin-election-systems-delay-primary-voting-results-green-winnebago-counties/",
+        "publishedAt": "2026-08-21",
+        "relevanceSummary": "This article explains how election-system issues in Green and Winnebago counties delayed the reporting of unofficial primary results and required alternative procedures such as physical delivery or phone transmission of results, highlighting how Wisconsin counties handle result tabulation and certification processes that also apply statewide, including WI-03 voters.[1]",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-wi03-056ce32",
+        "headline": "6 key dates to know in Wisconsin’s 2026 midterm elections",
+        "sourceName": "UpNorthNews Wisconsin",
+        "url": "https://upnorthnewswi.com/news/elections/key-dates-2026-midterm-elections/",
+        "publishedAt": "2026-08-20",
+        "relevanceSummary": "This statewide voter-resource article lists key deadlines for absentee ballot mailing, in-person early voting, voter registration, and absentee ballot return for the 2026 midterms, providing WI-03 voters with practical information on when and how to request, cast, and return ballots under Wisconsin’s current election procedures.[15]",
+        "tag": "voter-resource",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-wi03-0sminvz",
+        "headline": "Green Bay's interim city clerk details new protections to restore trust in elections, ballots",
+        "sourceName": "WBAY",
+        "url": "https://www.wbay.com/2026/08/19/green-bays-interim-city-clerk-details-new-protections-restore-trust-elections-ballots/",
+        "publishedAt": "2026-08-19",
+        "relevanceSummary": "Green Bay’s interim city clerk outlines new election protections, including four in-person absentee voting locations and efforts to recruit about 500 poll workers, illustrating concrete changes in absentee voting logistics and poll-worker training that mirror practices and options available to voters in other Wisconsin municipalities, including those in WI-03.[3]",
+        "tag": "administration",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-08-19-wi03-auto",
-      "startedAt": "2026-08-19T05:03:24.054Z",
-      "completedAt": "2026-08-19T05:05:05.534Z",
+      "id": "run-2026-08-26-wi03-auto",
+      "startedAt": "2026-08-26T05:11:20.955Z",
+      "completedAt": "2026-08-26T05:13:04.377Z",
       "triggerType": "scheduled",
-      "sourcesChecked": 14,
+      "sourcesChecked": 15,
       "updatesCreated": 8,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-08-19 for WI-03. Sources checked: 14. LLM verifications: 14. 3 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-08-26 for WI-03. Sources checked: 15. LLM verifications: 14. 3 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-08-26T05:05:05.534Z",
+    "NEXT_REFRESH_AT": "2026-09-02T05:13:04.377Z",
     "WEEKLY_REPORT": {
       "id": "wr-wi03-2026-w24",
       "periodStart": "2026-06-08",
