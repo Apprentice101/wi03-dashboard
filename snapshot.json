@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-08-26",
-  "updatedAt": "2026-08-26T05:13:04.377Z",
-  "exportedAt": "2026-08-26T05:18:41.019Z",
+  "dataAsOf": "2026-09-02",
+  "updatedAt": "2026-09-02T09:06:45.961Z",
+  "exportedAt": "2026-09-02T09:12:46.668Z",
   "districtCode": "WI-03",
   "data": {
     "DISTRICT": {
@@ -77,7 +77,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-06-11",
-        "lastVerified": "2026-08-26",
+        "lastVerified": "2026-09-02",
         "confidence": "high"
       },
       "src-votebeat-wi": {
@@ -1478,20 +1478,30 @@
         "relevanceSummary": "Green Bay’s interim city clerk outlines new election protections, including four in-person absentee voting locations and efforts to recruit about 500 poll workers, illustrating concrete changes in absentee voting logistics and poll-worker training that mirror practices and options available to voters in other Wisconsin municipalities, including those in WI-03.[3]",
         "tag": "administration",
         "reviewState": "new"
+      },
+      {
+        "id": "news-wi03-0bdr41n",
+        "headline": "What to know about US Supreme Court ruling on Trump’s mail ballot restrictions",
+        "sourceName": "Milwaukee Neighborhood News Service",
+        "url": "https://milwaukeenns.org/2026/08/27/us-supreme-court-ruling-trump-mail-ballot-election-voting-restrictions-what-to-know-wisconsin/",
+        "publishedAt": "2026-08-27",
+        "relevanceSummary": "This explainer breaks down how the U.S. Supreme Court’s decision on President Trump’s executive order restricting mail voting interacts with Wisconsin law, noting additional legal and practical hurdles that may limit any near-term changes to absentee voting rules for Wisconsin voters, including those in WI-03.",
+        "tag": "litigation",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-08-26-wi03-auto",
-      "startedAt": "2026-08-26T05:11:20.955Z",
-      "completedAt": "2026-08-26T05:13:04.377Z",
+      "id": "run-2026-09-02-wi03-auto",
+      "startedAt": "2026-09-02T09:03:02.823Z",
+      "completedAt": "2026-09-02T09:06:45.961Z",
       "triggerType": "scheduled",
-      "sourcesChecked": 15,
-      "updatesCreated": 8,
+      "sourcesChecked": 16,
+      "updatesCreated": 1,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-08-26 for WI-03. Sources checked: 15. LLM verifications: 14. 3 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-09-02 for WI-03. Sources checked: 16. LLM verifications: 18. 1 lastVerified bump on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-09-02T05:13:04.377Z",
+    "NEXT_REFRESH_AT": "2026-09-09T09:06:45.961Z",
     "WEEKLY_REPORT": {
       "id": "wr-wi03-2026-w24",
       "periodStart": "2026-06-08",
