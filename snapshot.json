@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-09-02",
-  "updatedAt": "2026-09-02T09:06:45.961Z",
-  "exportedAt": "2026-09-02T09:12:46.668Z",
+  "dataAsOf": "2026-09-09",
+  "updatedAt": "2026-09-09T09:17:05.951Z",
+  "exportedAt": "2026-09-09T09:23:01.378Z",
   "districtCode": "WI-03",
   "data": {
     "DISTRICT": {
@@ -77,7 +77,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-06-11",
-        "lastVerified": "2026-09-02",
+        "lastVerified": "2026-09-09",
         "confidence": "high"
       },
       "src-votebeat-wi": {
@@ -246,7 +246,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-08-05",
-        "lastVerified": "2026-08-26",
+        "lastVerified": "2026-09-09",
         "confidence": "high",
         "notes": "Federal statute (52 U.S.C. §§ 20501–20511). Section 8 requires states to complete any systematic program to remove ineligible voters from official lists at least 90 days before a primary or general election for federal office. The NVRA does NOT apply to six states — Idaho, Minnesota, New Hampshire, North Dakota, Wisconsin, and Wyoming — because on and after August 1, 1994 they either had no voter-registration requirements or had election-day voter registration at polling places for federal elections."
       }
@@ -1488,20 +1488,70 @@
         "relevanceSummary": "This explainer breaks down how the U.S. Supreme Court’s decision on President Trump’s executive order restricting mail voting interacts with Wisconsin law, noting additional legal and practical hurdles that may limit any near-term changes to absentee voting rules for Wisconsin voters, including those in WI-03.",
         "tag": "litigation",
         "reviewState": "new"
+      },
+      {
+        "id": "news-wi03-0m54mkq",
+        "headline": "State renews lawsuit over Trump mail-in voting rule",
+        "sourceName": "Wisconsin Law Journal",
+        "url": "https://wislawjournal.com/2026/09/08/state-renews-lawsuit-over-trump-mail-in-voting-rule-2/",
+        "publishedAt": "2026-09-08",
+        "relevanceSummary": "This statewide legal update matters to WI-03 because it reports Wisconsin renewed litigation over the new USPS mail-ballot rule, which could affect absentee ballot distribution and processing across the state. Any change would apply to district voters using mail ballots.",
+        "tag": "litigation",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-wi03-0vxahhw",
+        "headline": "Wisconsin clerks sending mail-in ballots as Trump wages court fight",
+        "sourceName": "Milwaukee Journal Sentinel",
+        "url": "https://www.jsonline.com/story/news/politics/elections/2026/09/08/wisconsin-clerks-sending-mail-in-ballots-as-trump-wages-court-fight/91638436007/",
+        "publishedAt": "2026-09-08",
+        "relevanceSummary": "This is directly relevant to WI-03 absentee voters because nearly 50,000 Wisconsin mail ballots were already in transit and the article says some had been returned. It shows that Wisconsin clerks are actively mailing ballots despite the court fight, so voters should expect absentee voting to proceed under current state procedures unless the rules change.",
+        "tag": "rule-change",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-wi03-0gpbtm5",
+        "headline": "Back in DC, Wisconsin lawmakers prep for election season",
+        "sourceName": "Milwaukee Journal Sentinel",
+        "url": "https://www.jsonline.com/story/news/politics/2026/09/04/back-in-dc-wisconsin-lawmakers-prep-for-election-season/91608348007/",
+        "publishedAt": "2026-09-04",
+        "relevanceSummary": "This statewide piece is relevant to WI-03 because it restates that Wisconsin voters must show photo ID to vote in person and that voters attest to citizenship when registering. It also flags the federal absentee-ballot fight, which could affect how Wisconsin mail ballots are handled statewide.",
+        "tag": "voter-id",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-wi03-0gmy83g",
+        "headline": "Wisconsin election officials warn mail-in ballots order is unworkable",
+        "sourceName": "Milwaukee Journal Sentinel",
+        "url": "https://www.jsonline.com/story/news/politics/elections/2026/09/04/wisconsin-election-officials-warn-mail-in-ballots-order-is-unworkable/91585114007/",
+        "publishedAt": "2026-09-04",
+        "relevanceSummary": "This directly affects Wisconsin absentee voters, including WI-03, because clerks were already preparing to mail ballots and state law requires absentee ballots to go out by Sept. 17 for voters with requests on file. The article says the Wisconsin Elections Commission told clerks they cannot comply with the new federal mail-ballot rule, making this a live procedure issue for voters tracking how their ballots will be sent.",
+        "tag": "rule-change",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-wi03-0w08mhc",
+        "headline": "Wisconsin election officials address voting concerns ahead of November",
+        "sourceName": "WTMJ",
+        "url": "https://wtmj.com/news/decision-wisconsin/2026/09/03/wisconsin-election-officials-address-voting-concerns-ahead-of-november/",
+        "publishedAt": "2026-09-03",
+        "relevanceSummary": "This is relevant to WI-03 because it covers statewide election-administration concerns ahead of November, including Milwaukee officials promising to release audit logs and records from primary night. That kind of transparency and administration coverage can affect voter confidence and local election procedures even outside Milwaukee.",
+        "tag": "administration",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-09-02-wi03-auto",
-      "startedAt": "2026-09-02T09:03:02.823Z",
-      "completedAt": "2026-09-02T09:06:45.961Z",
+      "id": "run-2026-09-09-wi03-auto",
+      "startedAt": "2026-09-09T09:15:17.314Z",
+      "completedAt": "2026-09-09T09:17:05.951Z",
       "triggerType": "scheduled",
-      "sourcesChecked": 16,
-      "updatesCreated": 1,
+      "sourcesChecked": 13,
+      "updatesCreated": 5,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-09-02 for WI-03. Sources checked: 16. LLM verifications: 18. 1 lastVerified bump on unchanged sources."
+      "summary": "Automated refresh completed 2026-09-09 for WI-03. Sources checked: 13. LLM verifications: 14. 2 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-09-09T09:06:45.961Z",
+    "NEXT_REFRESH_AT": "2026-09-16T09:17:05.951Z",
     "WEEKLY_REPORT": {
       "id": "wr-wi03-2026-w24",
       "periodStart": "2026-06-08",
