@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-09-09",
-  "updatedAt": "2026-09-09T09:17:05.951Z",
-  "exportedAt": "2026-09-09T09:23:01.378Z",
+  "dataAsOf": "2026-09-16",
+  "updatedAt": "2026-09-16T09:48:43.018Z",
+  "exportedAt": "2026-09-16T09:54:26.988Z",
   "districtCode": "WI-03",
   "data": {
     "DISTRICT": {
@@ -77,7 +77,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-06-11",
-        "lastVerified": "2026-09-09",
+        "lastVerified": "2026-09-16",
         "confidence": "high"
       },
       "src-votebeat-wi": {
@@ -246,7 +246,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-08-05",
-        "lastVerified": "2026-09-09",
+        "lastVerified": "2026-09-16",
         "confidence": "high",
         "notes": "Federal statute (52 U.S.C. §§ 20501–20511). Section 8 requires states to complete any systematic program to remove ineligible voters from official lists at least 90 days before a primary or general election for federal office. The NVRA does NOT apply to six states — Idaho, Minnesota, New Hampshire, North Dakota, Wisconsin, and Wyoming — because on and after August 1, 1994 they either had no voter-registration requirements or had election-day voter registration at polling places for federal elections."
       }
@@ -1538,20 +1538,90 @@
         "relevanceSummary": "This is relevant to WI-03 because it covers statewide election-administration concerns ahead of November, including Milwaukee officials promising to release audit logs and records from primary night. That kind of transparency and administration coverage can affect voter confidence and local election procedures even outside Milwaukee.",
         "tag": "administration",
         "reviewState": "new"
+      },
+      {
+        "id": "news-wi03-00w58f2",
+        "headline": "Supreme Court ruling leaves mail-in voting status quo in Wisconsin",
+        "sourceName": "Milwaukee Journal Sentinel",
+        "url": "https://www.jsonline.com/story/news/politics/elections/2026/09/15/supreme-court-ruling-leaves-mail-in-voting-status-quo-in-wisconsin/91774944007/",
+        "publishedAt": "2026-09-15",
+        "relevanceSummary": "This matters to WI-03 voters because Wisconsin election officials say the ruling preserves current absentee-ballot procedures for the November election, so clerks can keep mailing and processing ballots without a last-minute rule change. The article says there is “no change” for Wisconsin and that officials will still encourage voters to return ballots early because of mail-delivery delays.",
+        "tag": "rule-change",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-wi03-0xbo64t",
+        "headline": "The Supreme Court won't allow midterm mail-in voting limits",
+        "sourceName": "NPR",
+        "url": "https://www.npr.org/2026/09/14/nx-s1-5962190/supreme-court-mail-in-voting-trump",
+        "publishedAt": "2026-09-14",
+        "relevanceSummary": "This affects WI-03 voters because the Court’s action meant the U.S. Postal Service was expected to keep delivering absentee ballots as usual for the midterms. It reinforces that Wisconsin voters using mail ballots were not facing an immediate federal change to ballot delivery.",
+        "tag": "rule-change",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-wi03-0e1p6bv",
+        "headline": "Andrew Mercil on uncertainty over mail-in ballots",
+        "sourceName": "PBS Wisconsin",
+        "url": "https://pbswisconsin.org/news-item/andrew-mercil-on-uncertainty-over-mail-in-ballots/",
+        "publishedAt": "2026-09-11",
+        "relevanceSummary": "This is relevant because it features a Wisconsin county clerk discussing how election officials were preparing for possible federal changes while absentee ballots were being sent. County-clerk preparation and absentee-ballot logistics are directly relevant to WI-03 voters, even though the interview centers on Dunn County rather than the district itself.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-wi03-0hqi7sd",
+        "headline": "Absentee Ballots Are in the Mail",
+        "sourceName": "City of Madison",
+        "url": "https://www.cityofmadison.com/news/2026-09-08/absentee-ballots-are-in-the-mail",
+        "publishedAt": "2026-09-08",
+        "relevanceSummary": "This local election notice matters because it spells out current absentee-ballot procedures: request ballots through MyVote WI, upload voter ID if the clerk does not already have it, use a witness signature, and return ballots by mail or at secure drop locations. Although it is Madison-specific, it reflects Wisconsin procedures that also apply to WI-03 voters.",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-wi03-0q5njht",
+        "headline": "Wisconsin clerks told not to follow USPS ballot rule - Wisconsin Law Journal - WI Legal News & Resources",
+        "sourceName": "Wisconsin Law Journal",
+        "url": "https://wislawjournal.com/2026/09/01/wisconsin-clerks-told-not-to-follow-usps-ballot-rule/",
+        "publishedAt": "2026-09-01",
+        "relevanceSummary": "This is relevant because it reports the Wisconsin Elections Commission unanimously told clerks they are not required to comply with the new USPS mail-ballot rule while it is blocked. That directly affects absentee-ballot processing for WI-03 voters who vote by mail.",
+        "tag": "rule-change",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-wi03-0p019xp",
+        "headline": "WEC: Trump mail-in voting order doesn’t change anything",
+        "sourceName": "Newsline Local",
+        "url": "https://www.newslinelocal.com/2026/09/01/wec-trump-mail-in-voting-order-doesnt-change-anything/",
+        "publishedAt": "2026-09-01",
+        "relevanceSummary": "This is important for Wisconsin voters because the Wisconsin Elections Commission told clerks the blocked USPS rule did not change how absentee ballots should be issued or mailed. For WI-03, that means local clerks were still operating under existing Wisconsin absentee-ballot procedures.",
+        "tag": "rule-change",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-wi03-0wwu764",
+        "headline": "Dept. of Justice: Secures court order temporarily blocking key parts of postal service's unlawful mail voting rule",
+        "sourceName": "WisPolitics",
+        "url": "https://www.wispolitics.com/2026/dept-of-justice-secures-court-order-temporarily-blocking-key-parts-of-postal-services-unlawful-mail-voting-rule/",
+        "publishedAt": "2026-08-28",
+        "relevanceSummary": "This matters to WI-03 voters because Wisconsin joined a multi-state legal effort that temporarily blocked new USPS requirements affecting vote-by-mail systems. The ruling helped keep existing Wisconsin absentee-ballot handling rules in place for the November election.",
+        "tag": "litigation",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-09-09-wi03-auto",
-      "startedAt": "2026-09-09T09:15:17.314Z",
-      "completedAt": "2026-09-09T09:17:05.951Z",
+      "id": "run-2026-09-16-wi03-auto",
+      "startedAt": "2026-09-16T09:46:28.211Z",
+      "completedAt": "2026-09-16T09:48:43.018Z",
       "triggerType": "scheduled",
       "sourcesChecked": 13,
-      "updatesCreated": 5,
+      "updatesCreated": 7,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-09-09 for WI-03. Sources checked: 13. LLM verifications: 14. 2 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-09-16 for WI-03. Sources checked: 13. LLM verifications: 15. 2 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-09-16T09:17:05.951Z",
+    "NEXT_REFRESH_AT": "2026-09-23T09:48:43.018Z",
     "WEEKLY_REPORT": {
       "id": "wr-wi03-2026-w24",
       "periodStart": "2026-06-08",
