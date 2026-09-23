@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-09-16",
-  "updatedAt": "2026-09-16T09:48:43.018Z",
-  "exportedAt": "2026-09-16T09:54:26.988Z",
+  "dataAsOf": "2026-09-23",
+  "updatedAt": "2026-09-23T09:34:55.072Z",
+  "exportedAt": "2026-09-23T09:40:47.833Z",
   "districtCode": "WI-03",
   "data": {
     "DISTRICT": {
@@ -77,7 +77,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-06-11",
-        "lastVerified": "2026-09-16",
+        "lastVerified": "2026-09-23",
         "confidence": "high"
       },
       "src-votebeat-wi": {
@@ -114,7 +114,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-06-11",
-        "lastVerified": "2026-08-26",
+        "lastVerified": "2026-09-23",
         "confidence": "high"
       },
       "src-lacrosse-county-clerk": {
@@ -246,7 +246,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-08-05",
-        "lastVerified": "2026-09-16",
+        "lastVerified": "2026-09-23",
         "confidence": "high",
         "notes": "Federal statute (52 U.S.C. §§ 20501–20511). Section 8 requires states to complete any systematic program to remove ineligible voters from official lists at least 90 days before a primary or general election for federal office. The NVRA does NOT apply to six states — Idaho, Minnesota, New Hampshire, North Dakota, Wisconsin, and Wyoming — because on and after August 1, 1994 they either had no voter-registration requirements or had election-day voter registration at polling places for federal elections."
       }
@@ -1608,20 +1608,100 @@
         "relevanceSummary": "This matters to WI-03 voters because Wisconsin joined a multi-state legal effort that temporarily blocked new USPS requirements affecting vote-by-mail systems. The ruling helped keep existing Wisconsin absentee-ballot handling rules in place for the November election.",
         "tag": "litigation",
         "reviewState": "new"
+      },
+      {
+        "id": "news-wi03-0iq7876",
+        "headline": "Wisconsin referendums, voters to decide constitutional amendments",
+        "sourceName": "FOX6 Milwaukee",
+        "url": "https://www.fox6now.com/news/wisconsin-referendums-voters-decide-constitutional-amendments",
+        "publishedAt": "2026-09-21",
+        "relevanceSummary": "The article provides statewide election information and reports Wisconsin Elections Commission absentee-ballot figures for the Nov. 3 election. It is relevant to WI-03 voters because it concerns statewide ballot content and the administration of absentee voting across Wisconsin.",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-wi03-0frowm8",
+        "headline": "Milwaukee election officials warn of third-party voter registration mailers",
+        "sourceName": "Milwaukee Journal Sentinel",
+        "url": "https://www.jsonline.com/story/news/politics/elections/2026/09/20/milwaukee-fields-hundreds-of-calls-about-third-party-voter-mailers/91864213007/",
+        "publishedAt": "2026-09-20",
+        "relevanceSummary": "The article warns Wisconsin voters about third-party registration mailers and explains that voters can verify registration and update information through the official MyVote portal. It also describes proof-of-residence documents and the 28-day residency rule for registering at a new address.",
+        "tag": "voter-resource",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-wi03-0yjxq34",
+        "headline": "La Crosse mailing out absentee ballots for November election",
+        "sourceName": "WIZM",
+        "url": "https://www.wizmnews.com/2026/09/19/la-crosse-mailing-out-absentee-ballots-for-november-election/",
+        "publishedAt": "2026-09-19",
+        "relevanceSummary": "The article reports that La Crosse is mailing absentee ballots to voters with requests on file and reminds voters that the certificate envelope must be signed and completed by a witness with a printed name and full address. It also provides request, in-person absentee-voting, and local voting-location information.",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-wi03-03hldx0",
+        "headline": "Absentee voting opens in Wisconsin",
+        "sourceName": "Civic Media",
+        "url": "https://civicmedia.us/news/2026/09/21/absentee-voting-opens-in-wisconsin",
+        "publishedAt": "2026-09-18",
+        "relevanceSummary": "The article reports that Wisconsin clerks must send absentee ballots to voters with valid requests on file and explains that ballots must reach the local clerk by poll closing on Nov. 3. It also describes mail, clerk-office, polling-place, and municipal drop-box return options and notes the recommended Oct. 20 mail date.",
+        "tag": "deadline",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-wi03-0p7bbbu",
+        "headline": "Green Bay provides exclusive look at updated process for mailing absentee ballots",
+        "sourceName": "FOX 11 WLUK",
+        "url": "https://fox11online.com/news/local/green-bay/story/green-bay-provides-exclusive-look-at-updated-process-for-mailing-absentee-ballots",
+        "publishedAt": "2026-09-17",
+        "relevanceSummary": "The article covers Green Bay’s updated absentee-ballot mailing process, including an additional check comparing voter names against the WisVote list. Green Bay is outside WI-03, but the county-level administrative practice is relevant as Wisconsin voters prepare for absentee voting.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-wi03-084fsnc",
+        "headline": "Absentee ballots mailed out in Rhinelander",
+        "sourceName": "WXPR",
+        "url": "https://www.wxpr.org/election/2026-09-17/absentee-ballots-mailed-out-in-rhinelander",
+        "publishedAt": "2026-09-17",
+        "relevanceSummary": "This county-level Wisconsin election-administration report explains absentee-ballot return requirements, including the voter’s signature and witness completion of the envelope. It also identifies Rhinelander’s official drop box and directs voters to MyVote for registration, polling-place, ballot, and deadline information.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-wi03-0fvlcdh",
+        "headline": "Wisconsin hits absentee ballot deadline",
+        "sourceName": "The Center Square",
+        "url": "https://www.thecentersquare.com/wisconsin/article_8c2ac252-988d-4b8c-ac83-9842de059bc4.html",
+        "publishedAt": "2026-09-17",
+        "relevanceSummary": "The article says Wisconsin clerks had until Sept. 17 to mail absentee ballots requested by that date, while later requests must be fulfilled within one business day. It emphasizes that ballots must arrive at the local clerk’s office by 8 p.m. on Election Day and that requests remain available through October.",
+        "tag": "deadline",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-wi03-0ylux5x",
+        "headline": "What Wisconsin absentee voters should know after Supreme Court ruling",
+        "sourceName": "Milwaukee Journal Sentinel",
+        "url": "https://www.jsonline.com/story/news/politics/elections/2026/09/16/wisconsin-absentee-voters-ballots/91778047007/",
+        "publishedAt": "2026-09-16",
+        "relevanceSummary": "The article explains that absentee voting is proceeding normally in Wisconsin, including the Sept. 17 deadline for clerks to send ballots requested by that date, one-business-day fulfillment for later requests, ballot tracking through MyVote, and the requirement that ballots arrive by 8 p.m. on Election Day. It also reports the updated recommendation to mail ballots by Oct. 20 and describes hand-delivery, drop-box, polling-place, and other return options.",
+        "tag": "voter-info",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-09-16-wi03-auto",
-      "startedAt": "2026-09-16T09:46:28.211Z",
-      "completedAt": "2026-09-16T09:48:43.018Z",
+      "id": "run-2026-09-23-wi03-auto",
+      "startedAt": "2026-09-23T09:33:35.777Z",
+      "completedAt": "2026-09-23T09:34:55.072Z",
       "triggerType": "scheduled",
-      "sourcesChecked": 13,
-      "updatesCreated": 7,
+      "sourcesChecked": 15,
+      "updatesCreated": 8,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-09-16 for WI-03. Sources checked: 13. LLM verifications: 15. 2 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-09-23 for WI-03. Sources checked: 15. LLM verifications: 15. 3 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-09-23T09:48:43.018Z",
+    "NEXT_REFRESH_AT": "2026-09-30T09:34:55.072Z",
     "WEEKLY_REPORT": {
       "id": "wr-wi03-2026-w24",
       "periodStart": "2026-06-08",
