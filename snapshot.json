@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-09-23",
-  "updatedAt": "2026-09-23T09:34:55.072Z",
-  "exportedAt": "2026-09-23T09:40:47.833Z",
+  "dataAsOf": "2026-09-30",
+  "updatedAt": "2026-09-30T10:34:52.805Z",
+  "exportedAt": "2026-09-30T10:40:57.189Z",
   "districtCode": "WI-03",
   "data": {
     "DISTRICT": {
@@ -77,7 +77,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-06-11",
-        "lastVerified": "2026-09-23",
+        "lastVerified": "2026-09-30",
         "confidence": "high"
       },
       "src-votebeat-wi": {
@@ -246,7 +246,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-08-05",
-        "lastVerified": "2026-09-23",
+        "lastVerified": "2026-09-30",
         "confidence": "high",
         "notes": "Federal statute (52 U.S.C. §§ 20501–20511). Section 8 requires states to complete any systematic program to remove ineligible voters from official lists at least 90 days before a primary or general election for federal office. The NVRA does NOT apply to six states — Idaho, Minnesota, New Hampshire, North Dakota, Wisconsin, and Wyoming — because on and after August 1, 1994 they either had no voter-registration requirements or had election-day voter registration at polling places for federal elections."
       }
@@ -1688,20 +1688,70 @@
         "relevanceSummary": "The article explains that absentee voting is proceeding normally in Wisconsin, including the Sept. 17 deadline for clerks to send ballots requested by that date, one-business-day fulfillment for later requests, ballot tracking through MyVote, and the requirement that ballots arrive by 8 p.m. on Election Day. It also reports the updated recommendation to mail ballots by Oct. 20 and describes hand-delivery, drop-box, polling-place, and other return options.",
         "tag": "voter-info",
         "reviewState": "new"
+      },
+      {
+        "id": "news-wi03-0ko3x5j",
+        "headline": "Wisconsin Supreme Court agrees to hear case on expanded voting hours during election-day disruptions",
+        "sourceName": "Democracy Docket",
+        "url": "https://www.democracydocket.com/news-alerts/wisconsin-supreme-court-agrees-to-hear-case-on-expanded-voting-hours-during-election-day-disruptions/",
+        "publishedAt": "2026-09-30",
+        "relevanceSummary": "The Wisconsin Supreme Court will consider a case involving expanded voting hours during election-day disruptions. Wisconsin law allows voters who are in line at 8 p.m. to cast a ballot, making the case relevant to WI-03 voters facing polling-place delays or disruptions.",
+        "tag": "litigation",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-wi03-0ygj0wq",
+        "headline": "GOP trained Wisconsin election observers to target voting machines in pivotal swing state",
+        "sourceName": "Democracy Docket",
+        "url": "https://www.democracydocket.com/news-alerts/gop-trained-wisconsin-election-observers-to-target-voting-machines-in-pivotal-swing-state/",
+        "publishedAt": "2026-09-29",
+        "relevanceSummary": "The article describes planned election observation focused on machine testing, absentee-ballot processing, and canvassing in Wisconsin. These are statewide election-administration processes relevant to WI-03 voters.",
+        "tag": "security",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-wi03-00jfcl9",
+        "headline": "Wisconsin senator introduces bill to ban ICE, CPB agents from polling locations",
+        "sourceName": "Spectrum News 1 Wisconsin",
+        "url": "https://spectrumnews1.com/wi/milwaukee/news/2026/09/25/tammy-baldwin-wisconsin-ice-voting",
+        "publishedAt": "2026-09-25",
+        "relevanceSummary": "The proposed bill would restrict federal immigration and customs agents from polling places. Although the measure is not district-specific, it concerns the administration and security of Wisconsin polling locations and could affect voters statewide, including WI-03.",
+        "tag": "legislation",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-wi03-0aq2lhl",
+        "headline": "New details explain why election results were delayed in two counties",
+        "sourceName": "Milwaukee Journal Sentinel",
+        "url": "https://www.jsonline.com/story/news/politics/elections/2026/09/23/answers-winnebago-green-county-election-results-delay/91793863007/",
+        "publishedAt": "2026-09-23",
+        "relevanceSummary": "The article explains county procedures for transmitting election results, including hand delivery, phone reporting, and USB transfer from tabulators. These canvass and reporting procedures are relevant to Wisconsin voters monitoring the administration and certification of election results.",
+        "tag": "canvass",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-wi03-06kpcvx",
+        "headline": "Wisconsin Elections Commission says to double check third-party voter registration info",
+        "sourceName": "WSAW",
+        "url": "https://www.wsaw.com/2026/09/23/wisconsin-elections-commission-says-double-check-third-party-voter-registration-info/",
+        "publishedAt": "2026-09-23",
+        "relevanceSummary": "The Wisconsin Elections Commission advises voters to use the state’s official registration source and says voters generally need to update registration after moving, changing their name, or not voting for four or more years. WI-03 voters can verify their records through MyVote.WI.gov.",
+        "tag": "voter-resource",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-09-23-wi03-auto",
-      "startedAt": "2026-09-23T09:33:35.777Z",
-      "completedAt": "2026-09-23T09:34:55.072Z",
+      "id": "run-2026-09-30-wi03-auto",
+      "startedAt": "2026-09-30T10:33:17.529Z",
+      "completedAt": "2026-09-30T10:34:52.805Z",
       "triggerType": "scheduled",
-      "sourcesChecked": 15,
-      "updatesCreated": 8,
+      "sourcesChecked": 13,
+      "updatesCreated": 5,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-09-23 for WI-03. Sources checked: 15. LLM verifications: 15. 3 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-09-30 for WI-03. Sources checked: 13. LLM verifications: 14. 2 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-09-30T09:34:55.072Z",
+    "NEXT_REFRESH_AT": "2026-10-07T10:34:52.805Z",
     "WEEKLY_REPORT": {
       "id": "wr-wi03-2026-w24",
       "periodStart": "2026-06-08",
