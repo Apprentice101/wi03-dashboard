@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-09-30",
-  "updatedAt": "2026-09-30T10:34:52.805Z",
-  "exportedAt": "2026-09-30T10:40:57.189Z",
+  "dataAsOf": "2026-10-07",
+  "updatedAt": "2026-10-07T11:10:07.993Z",
+  "exportedAt": "2026-10-07T11:16:21.615Z",
   "districtCode": "WI-03",
   "data": {
     "DISTRICT": {
@@ -77,7 +77,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-06-11",
-        "lastVerified": "2026-09-30",
+        "lastVerified": "2026-10-07",
         "confidence": "high"
       },
       "src-votebeat-wi": {
@@ -1738,20 +1738,100 @@
         "relevanceSummary": "The Wisconsin Elections Commission advises voters to use the state’s official registration source and says voters generally need to update registration after moving, changing their name, or not voting for four or more years. WI-03 voters can verify their records through MyVote.WI.gov.",
         "tag": "voter-resource",
         "reviewState": "new"
+      },
+      {
+        "id": "news-wi03-0nif0gu",
+        "headline": "UW-Stevens Point to host non-partisan election discussion panel",
+        "sourceName": "University of Wisconsin–Stevens Point",
+        "url": "https://www.uwsp.edu/news/article/uw-stevens-point-to-host-non-partisan-election-discussion-panel/",
+        "publishedAt": "2026-10-05",
+        "relevanceSummary": "The announced Oct. 14 educational panel will explain Wisconsin’s election process, the roles of the Wisconsin Elections Commission and local clerks, poll workers, and election-security checks. It is statewide procedural information, though its direct geographic connection to WI-03 is indirect.",
+        "tag": "voter-resource",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-wi03-0mif4i7",
+        "headline": "How to vote in Wisconsin’s 2026 midterm election",
+        "sourceName": "Civic Media",
+        "url": "https://civicmedia.us/news/2026/10/05/how-to-vote-in-wisconsins-2026-midterm-election",
+        "publishedAt": "2026-10-05",
+        "relevanceSummary": "This statewide voter guide applies directly to WI-03 voters and explains the Nov. 3 election schedule, Oct. 14 online or mail registration deadline, early in-person absentee voting beginning as early as Oct. 20, acceptable photo ID, absentee-ballot request deadlines, and the Nov. 3, 8 p.m. return deadline.",
+        "tag": "voter-resource",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-wi03-0j1jeae",
+        "headline": "Hundreds of Wisconsin election offices not using cybersecurity best practices",
+        "sourceName": "Wisconsin Watch",
+        "url": "https://wisconsinwatch.org/2026/10/wisconsin-election-offices-not-using-cybersecurity-best-practices/",
+        "publishedAt": "2026-10-04",
+        "relevanceSummary": "The statewide investigation concerns cybersecurity practices in Wisconsin election offices ahead of the November election. It is relevant to WI-03 voters because local clerks operate within the statewide election-security system.",
+        "tag": "security",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-wi03-04u3w99",
+        "headline": "Wisconsin Elections Commission answers questions about absentee ballots in Green Bay",
+        "sourceName": "WSAW",
+        "url": "https://www.wsaw.com/video/2026/10/01/wisconsin-elections-commission-answers-questions-about-absentee-ballots-green-bay/",
+        "publishedAt": "2026-10-01",
+        "relevanceSummary": "The Wisconsin Elections Commission addresses absentee-ballot questions in Green Bay, providing statewide-relevant information about mail voting procedures for Wisconsin voters, including those in WI-03.",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-wi03-0fvo38j",
+        "headline": "Wisconsin election officials review Nov. 3 readiness report",
+        "sourceName": "WSAW",
+        "url": "https://www.wsaw.com/2026/10/01/wisconsin-election-officials-review-nov-3-readiness-report-clone/",
+        "publishedAt": "2026-10-01",
+        "relevanceSummary": "The statewide readiness review addresses poll-worker recruitment, voting-equipment security testing, ballot integrity, and disinformation prevention before Nov. 3. These procedures apply to election administration serving WI-03 voters.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-wi03-083k0a9",
+        "headline": "Elections chair lays out how lawmakers could use citizenship database",
+        "sourceName": "Milwaukee Journal Sentinel",
+        "url": "https://www.jsonline.com/story/news/politics/elections/2026/10/01/wisconsin-elections-chair-advises-lawmakers-on-citizenship-database/92009948007/",
+        "publishedAt": "2026-10-01",
+        "relevanceSummary": "The article explains how Wisconsin’s citizenship database may be used in election administration. It reports that federal law bars mass voter-roll purges this close to the midterm election, limiting the database to inquiries about individual voters.",
+        "tag": "legal",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-wi03-0kcdl2w",
+        "headline": "Wisconsin Elections Commission meets ahead of midterms",
+        "sourceName": "Wisconsin Examiner",
+        "url": "https://wisconsinexaminer.com/2026/10/01/wisconsin-elections-commission-meets-ahead-of-midterms/",
+        "publishedAt": "2026-10-01",
+        "relevanceSummary": "The Wisconsin Elections Commission’s pre-election readiness report covers voter-roll accuracy, election-official training, election security, and preparations for November. The report says nearly 500,000 voter files were reviewed or updated statewide, affecting WI-03 voters and local election officials.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-wi03-0b3zezv",
+        "headline": "Election officials address concerns ahead of November election",
+        "sourceName": "WBAY",
+        "url": "https://www.wbay.com/2026/09/30/election-officials-address-concerns-ahead-november-election/",
+        "publishedAt": "2026-09-30",
+        "relevanceSummary": "Wisconsin election officials explain absentee-ballot safeguards, including the requirement to request a ballot, provide photo ID, and return only one ballot per voter. The report also describes chain-of-custody and tamper-evident-seal procedures relevant to WI-03 absentee voters.",
+        "tag": "voter-info",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-09-30-wi03-auto",
-      "startedAt": "2026-09-30T10:33:17.529Z",
-      "completedAt": "2026-09-30T10:34:52.805Z",
+      "id": "run-2026-10-07-wi03-auto",
+      "startedAt": "2026-10-07T11:08:53.020Z",
+      "completedAt": "2026-10-07T11:10:07.993Z",
       "triggerType": "scheduled",
-      "sourcesChecked": 13,
-      "updatesCreated": 5,
+      "sourcesChecked": 15,
+      "updatesCreated": 8,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-09-30 for WI-03. Sources checked: 13. LLM verifications: 14. 2 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-10-07 for WI-03. Sources checked: 15. LLM verifications: 16. 1 lastVerified bump on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-10-07T10:34:52.805Z",
+    "NEXT_REFRESH_AT": "2026-10-14T11:10:07.993Z",
     "WEEKLY_REPORT": {
       "id": "wr-wi03-2026-w24",
       "periodStart": "2026-06-08",
