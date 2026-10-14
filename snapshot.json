@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-10-07",
-  "updatedAt": "2026-10-07T11:10:07.993Z",
-  "exportedAt": "2026-10-07T11:16:21.615Z",
+  "dataAsOf": "2026-10-14",
+  "updatedAt": "2026-10-14T09:29:46.653Z",
+  "exportedAt": "2026-10-14T09:35:50.567Z",
   "districtCode": "WI-03",
   "data": {
     "DISTRICT": {
@@ -77,7 +77,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-06-11",
-        "lastVerified": "2026-10-07",
+        "lastVerified": "2026-10-14",
         "confidence": "high"
       },
       "src-votebeat-wi": {
@@ -102,7 +102,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-06-11",
-        "lastVerified": "2026-07-03",
+        "lastVerified": "2026-10-14",
         "confidence": "high"
       },
       "src-wi-statutes-elections": {
@@ -246,7 +246,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-08-05",
-        "lastVerified": "2026-09-30",
+        "lastVerified": "2026-10-14",
         "confidence": "high",
         "notes": "Federal statute (52 U.S.C. §§ 20501–20511). Section 8 requires states to complete any systematic program to remove ineligible voters from official lists at least 90 days before a primary or general election for federal office. The NVRA does NOT apply to six states — Idaho, Minnesota, New Hampshire, North Dakota, Wisconsin, and Wyoming — because on and after August 1, 1994 they either had no voter-registration requirements or had election-day voter registration at polling places for federal elections."
       }
@@ -1818,20 +1818,100 @@
         "relevanceSummary": "Wisconsin election officials explain absentee-ballot safeguards, including the requirement to request a ballot, provide photo ID, and return only one ballot per voter. The report also describes chain-of-custody and tamper-evident-seal procedures relevant to WI-03 absentee voters.",
         "tag": "voter-info",
         "reviewState": "new"
+      },
+      {
+        "id": "news-wi03-0u1zjb6",
+        "headline": "Protecting the vote: Dane County officials break down election security, voter trust",
+        "sourceName": "The Daily Cardinal",
+        "url": "https://www.dailycardinal.com/article/2026/10/protecting-the-vote-dane-county-officials-break-down-election-security-voter-trust",
+        "publishedAt": "2026-10-14",
+        "relevanceSummary": "Dane County election officials described Wisconsin’s decentralized administration, pre-election equipment testing, offline election coding, chain-of-custody procedures, paper ballots, audits, and recount safeguards. These statewide procedures also govern voters in WI-03.",
+        "tag": "security",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-wi03-0ar18p8",
+        "headline": "Wisconsin officials can count ballots that arrive late over official errors, judge rules",
+        "sourceName": "Wausau Pilot & Review",
+        "url": "https://wausaupilotandreview.com/2026/10/13/wisconsin-officials-can-count-ballots-that-arrive-late-over-official-errors-judge-rules/",
+        "publishedAt": "2026-10-14",
+        "relevanceSummary": "The statewide ruling says clerks can count absentee ballots delivered late to polling places when the ballot was already in municipal custody by 8 p.m. and the delay was caused by election officials. It does not protect ballots whose late arrival was partly the voter’s responsibility.",
+        "tag": "litigation",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-wi03-0ludl26",
+        "headline": "Three weeks out from the November election, write-in candidate and voter participation deadlines approach",
+        "sourceName": "Ballotpedia News",
+        "url": "https://news.ballotpedia.org/2026/10/13/three-weeks-out-from-the-november-election-write-in-candidate-and-voter-participation-deadlines-approach/",
+        "publishedAt": "2026-10-13",
+        "relevanceSummary": "The article summarizes state-specific ballot-access and voter-participation deadlines, including Wisconsin’s Oct. 20 start of early in-person voting. Its coverage is statewide and applies to voters and candidates in WI-03.",
+        "tag": "ballot-access",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-wi03-014rsjp",
+        "headline": "Absentee ballots mailed to Wisconsin clerks down roughly 30 percent compared to 2022",
+        "sourceName": "Wisconsin Public Radio",
+        "url": "https://www.wpr.org/news/absentee-ballots-wisconsin-down-compared-to-2022",
+        "publishedAt": "2026-10-13",
+        "relevanceSummary": "Wisconsin election officials said in-person absentee voting begins Oct. 20 and urged voters returning mailed ballots to send them early enough to reach their municipal clerk by 8 p.m. on Nov. 3.",
+        "tag": "deadline",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-wi03-0l80aq4",
+        "headline": "Clerks may not reject ballots delayed by government error, judge rules",
+        "sourceName": "Milwaukee Journal Sentinel",
+        "url": "https://www.jsonline.com/story/news/politics/elections/2026/10/13/wisconsin-clerks-may-not-reject-ballots-arriving-late-due-to-error-judge-rules/92234253007/",
+        "publishedAt": "2026-10-13",
+        "relevanceSummary": "A Dane County judge ruled that Wisconsin officials may count absentee ballots that were in a municipal clerk’s custody by 8 p.m. on Election Day but reached the polling place late because of government error. The ruling does not extend the deadline for voters who return ballots late.",
+        "tag": "litigation",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-wi03-0wd7kb5",
+        "headline": "WPR voter guide, Police use of force, WWII flight nurses",
+        "sourceName": "Wisconsin Public Radio",
+        "url": "https://www.wpr.org/shows/wisconsin-today-2/wpr-voter-guide-police-use-of-force-wwii-flight-nurses",
+        "publishedAt": "2026-10-12",
+        "relevanceSummary": "The statewide voter guide covers online-registration timing, early voting from Oct. 20 through Nov. 1, absentee-ballot delivery by 8 p.m. on Election Day, acceptable identification, student voting, provisional ballots, and the MyVote Wisconsin voter-information tool.",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-wi03-0t6y35z",
+        "headline": "Wisconsin Voting Alert Today: Free IDs Available Before Nov. 3",
+        "sourceName": "Country Herald",
+        "url": "https://countryherald.com/wisconsin/madison/wisconsin-voting-alert-today-free-ids-available-before-nov-3",
+        "publishedAt": "2026-10-12",
+        "relevanceSummary": "The Wisconsin DMV reminder explains that eligible voters can obtain free identification for voting and do not need a REAL ID specifically. It also describes qualifying driver’s licenses, state IDs, military IDs, student IDs, and temporary identification receipts.",
+        "tag": "voter-id",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-wi03-0p9hqk4",
+        "headline": "Everything you need to know about voting in Wisconsin's November election",
+        "sourceName": "Wisconsin Watch",
+        "url": "https://wisconsinwatch.org/2026/10/wisconsin-november-election-voting-everything-you-need-to-know-2026/",
+        "publishedAt": "2026-10-10",
+        "relevanceSummary": "This statewide voter guide explains Wisconsin’s Nov. 3 polling hours, early-voting timing, polling-place rules, acceptable photo ID, proof-of-residence documents for same-day registration, absentee-ballot request deadlines, and the requirement that mailed ballots arrive by 8 p.m. on Election Day.",
+        "tag": "voter-resource",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-10-07-wi03-auto",
-      "startedAt": "2026-10-07T11:08:53.020Z",
-      "completedAt": "2026-10-07T11:10:07.993Z",
+      "id": "run-2026-10-14-wi03-auto",
+      "startedAt": "2026-10-14T09:28:37.058Z",
+      "completedAt": "2026-10-14T09:29:46.653Z",
       "triggerType": "scheduled",
       "sourcesChecked": 15,
       "updatesCreated": 8,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-10-07 for WI-03. Sources checked: 15. LLM verifications: 16. 1 lastVerified bump on unchanged sources."
+      "summary": "Automated refresh completed 2026-10-14 for WI-03. Sources checked: 15. LLM verifications: 16. 3 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-10-14T11:10:07.993Z",
+    "NEXT_REFRESH_AT": "2026-10-21T09:29:46.653Z",
     "WEEKLY_REPORT": {
       "id": "wr-wi03-2026-w24",
       "periodStart": "2026-06-08",
