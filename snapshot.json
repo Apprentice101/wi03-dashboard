@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-10-14",
-  "updatedAt": "2026-10-14T09:29:46.653Z",
-  "exportedAt": "2026-10-14T09:35:50.567Z",
+  "dataAsOf": "2026-10-21",
+  "updatedAt": "2026-10-21T09:19:37.425Z",
+  "exportedAt": "2026-10-21T09:25:47.870Z",
   "districtCode": "WI-03",
   "data": {
     "DISTRICT": {
@@ -77,7 +77,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-06-11",
-        "lastVerified": "2026-10-14",
+        "lastVerified": "2026-10-21",
         "confidence": "high"
       },
       "src-votebeat-wi": {
@@ -246,7 +246,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-08-05",
-        "lastVerified": "2026-10-14",
+        "lastVerified": "2026-10-21",
         "confidence": "high",
         "notes": "Federal statute (52 U.S.C. §§ 20501–20511). Section 8 requires states to complete any systematic program to remove ineligible voters from official lists at least 90 days before a primary or general election for federal office. The NVRA does NOT apply to six states — Idaho, Minnesota, New Hampshire, North Dakota, Wisconsin, and Wyoming — because on and after August 1, 1994 they either had no voter-registration requirements or had election-day voter registration at polling places for federal elections."
       }
@@ -1898,20 +1898,100 @@
         "relevanceSummary": "This statewide voter guide explains Wisconsin’s Nov. 3 polling hours, early-voting timing, polling-place rules, acceptable photo ID, proof-of-residence documents for same-day registration, absentee-ballot request deadlines, and the requirement that mailed ballots arrive by 8 p.m. on Election Day.",
         "tag": "voter-resource",
         "reviewState": "new"
+      },
+      {
+        "id": "news-wi03-0ttsjhf",
+        "headline": "Early in-person voting has begun in Wisconsin",
+        "sourceName": "Iron Mountain Daily News",
+        "url": "https://www.ironmountaindailynews.com/news/local-news/2026/10/early-in-person-voting-has-begun-in-wisconsin/",
+        "publishedAt": "2026-10-21",
+        "relevanceSummary": "The statewide early-voting process requires voters to request, complete, and return an absentee ballot in one stop and show eligible photo ID, directly affecting WI-03 voters using in-person absentee voting.[5]",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-wi03-0ynyxhf",
+        "headline": "Wisconsin election officials say they're prepared for midterm",
+        "sourceName": "WBAY",
+        "url": "https://www.wbay.com/2026/10/20/wisconsin-election-officials-say-theyre-prepared-midterm/",
+        "publishedAt": "2026-10-20",
+        "relevanceSummary": "Wisconsin election officials describe preparations for the Nov. 3 election and direct voters to MyVote.wi.gov for ballot information and election details, resources available to WI-03 voters.[4]",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-wi03-03rrh8p",
+        "headline": "Here's how to get a free photo ID before the Nov. 3 election",
+        "sourceName": "Wisconsin Watch",
+        "url": "https://wisconsinwatch.org/2026/10/wisconsin-how-to-get-free-photo-voter-id-before-november-election/",
+        "publishedAt": "2026-10-20",
+        "relevanceSummary": "The statewide voter-ID guidance applies directly to WI-03 voters. Registered voters without acceptable ID may cast a provisional ballot, but must present qualifying ID by 8 p.m. on Election Day or by 4 p.m. Nov. 6 at their municipal clerk for the ballot to count.[2]",
+        "tag": "voter-id",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-wi03-09v1mnt",
+        "headline": "Early voting in Wisconsin: Locations and key election deadlines",
+        "sourceName": "WISN 12",
+        "url": "https://www.wisn.com/article/early-voting-begins-tuesday-in-wisconsin-locations-and-key-election-deadlines/74177957",
+        "publishedAt": "2026-10-19",
+        "relevanceSummary": "Wisconsin voters, including those in WI-03, must present acceptable photo ID, and most voters must request mail-in absentee ballots by Oct. 29 at 5 p.m. Completed ballots must arrive at municipal election offices by 8 p.m. on Nov. 3; a postmark alone is insufficient.[1]",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-wi03-0rhsrwx",
+        "headline": "Electronic Voting System Test - Town of Newport",
+        "sourceName": "Town of Newport",
+        "url": "https://townofnewport.wi.gov/2026/10/electronic-voting-system-test/",
+        "publishedAt": "2026-10-17",
+        "relevanceSummary": "The county-level administration notice documents an electronic voting-system test and provides absentee-ballot requirements, including proof of identification, a photo-ID copy with mailed applications, and the Oct. 29 application deadline.[9]",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-wi03-0a8oyyi",
+        "headline": "Wisconsin Election Officials Explain Voting Safeguards, Address Election Misinformation",
+        "sourceName": "Milwaukee Courier",
+        "url": "https://milwaukeecourier.com/news/2026/10/16/wisconsin-election-officials-explain-voting-safeguards-address-election-misinformation",
+        "publishedAt": "2026-10-16",
+        "relevanceSummary": "State election officials explain Wisconsin’s voter-ID and ballot-processing safeguards and advise voters to confirm drop-box availability and procedures with their municipal clerk.[7]",
+        "tag": "security",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-wi03-03lknf3",
+        "headline": "2026 Wisconsin voter guide: Early voting, deadlines, polling locations, what to bring",
+        "sourceName": "WISN 12",
+        "url": "https://www.wisn.com/article/2026-wisconsin-voter-guide-election-day-november-3-poll/74137716",
+        "publishedAt": "2026-10-16",
+        "relevanceSummary": "The statewide guide explains registration deadlines, absentee-ballot requests, polling-place registration, early voting, and acceptable photo ID for Wisconsin voters, including WI-03 residents.[3]",
+        "tag": "voter-resource",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-wi03-0j79by9",
+        "headline": "Are you ready to vote? Election officials tout preparations ahead of Nov. 3rd election",
+        "sourceName": "WSAW",
+        "url": "https://www.wsaw.com/2026/10/15/are-you-ready-vote-election-officials-tout-preparations-ahead-nov-3rd-election/",
+        "publishedAt": "2026-10-15",
+        "relevanceSummary": "Wisconsin officials advise absentee voters to return ballots early and describe available return options, including clerk offices, drop boxes where provided, and polling places; all ballots must arrive by 8 p.m. Election Day.[8]",
+        "tag": "voter-info",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-10-14-wi03-auto",
-      "startedAt": "2026-10-14T09:28:37.058Z",
-      "completedAt": "2026-10-14T09:29:46.653Z",
+      "id": "run-2026-10-21-wi03-auto",
+      "startedAt": "2026-10-21T09:18:19.527Z",
+      "completedAt": "2026-10-21T09:19:37.425Z",
       "triggerType": "scheduled",
       "sourcesChecked": 15,
       "updatesCreated": 8,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-10-14 for WI-03. Sources checked: 15. LLM verifications: 16. 3 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-10-21 for WI-03. Sources checked: 15. LLM verifications: 16. 2 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-10-21T09:29:46.653Z",
+    "NEXT_REFRESH_AT": "2026-10-28T09:19:37.425Z",
     "WEEKLY_REPORT": {
       "id": "wr-wi03-2026-w24",
       "periodStart": "2026-06-08",
