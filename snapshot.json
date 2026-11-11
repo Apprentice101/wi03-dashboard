@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-11-04",
-  "updatedAt": "2026-11-04T11:47:48.820Z",
-  "exportedAt": "2026-11-04T11:53:26.913Z",
+  "dataAsOf": "2026-11-11",
+  "updatedAt": "2026-11-11T11:41:08.892Z",
+  "exportedAt": "2026-11-11T11:46:40.271Z",
   "districtCode": "WI-03",
   "data": {
     "DISTRICT": {
@@ -186,7 +186,7 @@
         "sourceType": "secondary",
         "hierarchyLevel": 4,
         "dateAccessed": "2026-06-11",
-        "lastVerified": "2026-11-04",
+        "lastVerified": "2026-11-11",
         "confidence": "high"
       },
       "src-wispolitics": {
@@ -1981,17 +1981,17 @@
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-11-04-wi03-auto",
-      "startedAt": "2026-11-04T11:47:44.483Z",
-      "completedAt": "2026-11-04T11:47:48.820Z",
+      "id": "run-2026-11-11-wi03-auto",
+      "startedAt": "2026-11-11T11:39:00.110Z",
+      "completedAt": "2026-11-11T11:41:08.892Z",
       "triggerType": "scheduled",
-      "sourcesChecked": 33,
+      "sourcesChecked": 35,
       "updatesCreated": 0,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-11-04 for WI-03. Sources checked: 33. LLM verifications: 23. 2 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-11-11 for WI-03. Sources checked: 35. LLM verifications: 35. 1 lastVerified bump on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-11-11T11:47:48.820Z",
+    "NEXT_REFRESH_AT": "2026-11-18T11:41:08.892Z",
     "WEEKLY_REPORT": {
       "id": "wr-wi03-2026-w24",
       "periodStart": "2026-06-08",
